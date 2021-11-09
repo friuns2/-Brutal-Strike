@@ -14,7 +14,7 @@ rem cd ./BrutalStrike
 set GIT_SSL_NO_VERIFY=true 
 git\bin\git.exe init 
 git\bin\git.exe stash --keep-index 
-git\bin\git.exe remote add origin https://gitlab.com/friuns/brutalstrike.git 
+git\bin\git.exe remote add origin https://github.com/friuns/-Brutal-Strike.git
 rem ..\git\bin\git.exe pull origin master --progress 
 
 git\bin\git.exe fetch origin --depth=1 --progress  
