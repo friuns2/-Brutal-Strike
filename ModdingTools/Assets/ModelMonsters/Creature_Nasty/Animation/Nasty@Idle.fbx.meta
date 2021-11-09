@@ -1,0 +1,522 @@
+fileFormatVersion: 2
+guid: 14f7c49b0c8a91149896e1dca5cc371c
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Antenna1_L
+  - first:
+      1: 100002
+    second: Antenna1_R
+  - first:
+      1: 100004
+    second: Antenna2_L
+  - first:
+      1: 100006
+    second: Antenna2_R
+  - first:
+      1: 100008
+    second: Antenna3_L
+  - first:
+      1: 100010
+    second: Antenna3_R
+  - first:
+      1: 100012
+    second: BackLeg1_L
+  - first:
+      1: 100014
+    second: BackLeg1_R
+  - first:
+      1: 100016
+    second: BackLeg2_L
+  - first:
+      1: 100018
+    second: BackLeg2_R
+  - first:
+      1: 100020
+    second: BackLeg3_L
+  - first:
+      1: 100022
+    second: BackLeg3_R
+  - first:
+      1: 100024
+    second: BackLeg4_L
+  - first:
+      1: 100026
+    second: BackLeg4_R
+  - first:
+      1: 100028
+    second: Body
+  - first:
+      1: 100030
+    second: Chest_M
+  - first:
+      1: 100032
+    second: FrontLeg1_L
+  - first:
+      1: 100034
+    second: FrontLeg1_R
+  - first:
+      1: 100036
+    second: FrontLeg2_L
+  - first:
+      1: 100038
+    second: FrontLeg2_R
+  - first:
+      1: 100040
+    second: FrontLeg3_L
+  - first:
+      1: 100042
+    second: FrontLeg3_R
+  - first:
+      1: 100044
+    second: FrontLeg4_L
+  - first:
+      1: 100046
+    second: FrontLeg4_R
+  - first:
+      1: 100048
+    second: Hand1_L
+  - first:
+      1: 100050
+    second: Hand1_R
+  - first:
+      1: 100052
+    second: Hand2_L
+  - first:
+      1: 100054
+    second: Hand2_R
+  - first:
+      1: 100056
+    second: Hand3_L
+  - first:
+      1: 100058
+    second: Hand3_R
+  - first:
+      1: 100060
+    second: Hand4_L
+  - first:
+      1: 100062
+    second: Hand4_R
+  - first:
+      1: 100064
+    second: Hand5_L
+  - first:
+      1: 100066
+    second: Hand5_R
+  - first:
+      1: 100068
+    second: Head_M
+  - first:
+      1: 100070
+    second: HeadEnd_M
+  - first:
+      1: 100072
+    second: Jaw
+  - first:
+      1: 100074
+    second: //RootNode
+  - first:
+      1: 100076
+    second: Root_M
+  - first:
+      1: 100078
+    second: Spine1_M
+  - first:
+      1: 100080
+    second: Tail1_M
+  - first:
+      1: 100082
+    second: Tail2_M
+  - first:
+      1: 100084
+    second: Tail3_M
+  - first:
+      1: 100086
+    second: Tail4_M
+  - first:
+      1: 100088
+    second: Tail5_M
+  - first:
+      1: 100090
+    second: Tail6_M
+  - first:
+      1: 100092
+    second: Tail7_M
+  - first:
+      4: 400000
+    second: Antenna1_L
+  - first:
+      4: 400002
+    second: Antenna1_R
+  - first:
+      4: 400004
+    second: Antenna2_L
+  - first:
+      4: 400006
+    second: Antenna2_R
+  - first:
+      4: 400008
+    second: Antenna3_L
+  - first:
+      4: 400010
+    second: Antenna3_R
+  - first:
+      4: 400012
+    second: BackLeg1_L
+  - first:
+      4: 400014
+    second: BackLeg1_R
+  - first:
+      4: 400016
+    second: BackLeg2_L
+  - first:
+      4: 400018
+    second: BackLeg2_R
+  - first:
+      4: 400020
+    second: BackLeg3_L
+  - first:
+      4: 400022
+    second: BackLeg3_R
+  - first:
+      4: 400024
+    second: BackLeg4_L
+  - first:
+      4: 400026
+    second: BackLeg4_R
+  - first:
+      4: 400028
+    second: Body
+  - first:
+      4: 400030
+    second: Chest_M
+  - first:
+      4: 400032
+    second: FrontLeg1_L
+  - first:
+      4: 400034
+    second: FrontLeg1_R
+  - first:
+      4: 400036
+    second: FrontLeg2_L
+  - first:
+      4: 400038
+    second: FrontLeg2_R
+  - first:
+      4: 400040
+    second: FrontLeg3_L
+  - first:
+      4: 400042
+    second: FrontLeg3_R
+  - first:
+      4: 400044
+    second: FrontLeg4_L
+  - first:
+      4: 400046
+    second: FrontLeg4_R
+  - first:
+      4: 400048
+    second: Hand1_L
+  - first:
+      4: 400050
+    second: Hand1_R
+  - first:
+      4: 400052
+    second: Hand2_L
+  - first:
+      4: 400054
+    second: Hand2_R
+  - first:
+      4: 400056
+    second: Hand3_L
+  - first:
+      4: 400058
+    second: Hand3_R
+  - first:
+      4: 400060
+    second: Hand4_L
+  - first:
+      4: 400062
+    second: Hand4_R
+  - first:
+      4: 400064
+    second: Hand5_L
+  - first:
+      4: 400066
+    second: Hand5_R
+  - first:
+      4: 400068
+    second: Head_M
+  - first:
+      4: 400070
+    second: HeadEnd_M
+  - first:
+      4: 400072
+    second: Jaw
+  - first:
+      4: 400074
+    second: //RootNode
+  - first:
+      4: 400076
+    second: Root_M
+  - first:
+      4: 400078
+    second: Spine1_M
+  - first:
+      4: 400080
+    second: Tail1_M
+  - first:
+      4: 400082
+    second: Tail2_M
+  - first:
+      4: 400084
+    second: Tail3_M
+  - first:
+      4: 400086
+    second: Tail4_M
+  - first:
+      4: 400088
+    second: Tail5_M
+  - first:
+      4: 400090
+    second: Tail6_M
+  - first:
+      4: 400092
+    second: Tail7_M
+  - first:
+      43: 4300000
+    second: Body
+  - first:
+      74: 7400000
+    second: Idle
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Body
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 7ccd2277d07ed284680cc9d5d134df4c, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 360
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BackLeg1_L
+        weight: 1
+      - path: Root_M/BackLeg1_L/BackLeg2_L
+        weight: 1
+      - path: Root_M/BackLeg1_L/BackLeg2_L/BackLeg3_L
+        weight: 1
+      - path: Root_M/BackLeg1_L/BackLeg2_L/BackLeg3_L/BackLeg4_L
+        weight: 1
+      - path: Root_M/BackLeg1_R
+        weight: 1
+      - path: Root_M/BackLeg1_R/BackLeg2_R
+        weight: 1
+      - path: Root_M/BackLeg1_R/BackLeg2_R/BackLeg3_R
+        weight: 1
+      - path: Root_M/BackLeg1_R/BackLeg2_R/BackLeg3_R/BackLeg4_R
+        weight: 1
+      - path: Root_M/Spine1_M
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/FrontLeg1_L
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/FrontLeg1_L/FrontLeg2_L
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/FrontLeg1_L/FrontLeg2_L/FrontLeg3_L
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/FrontLeg1_L/FrontLeg2_L/FrontLeg3_L/FrontLeg4_L
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/FrontLeg1_R
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/FrontLeg1_R/FrontLeg2_R
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/FrontLeg1_R/FrontLeg2_R/FrontLeg3_R
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/FrontLeg1_R/FrontLeg2_R/FrontLeg3_R/FrontLeg4_R
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Hand1_L
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Hand1_L/Hand2_L
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Hand1_L/Hand2_L/Hand3_L
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Hand1_L/Hand2_L/Hand3_L/Hand4_L
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Hand1_L/Hand2_L/Hand3_L/Hand4_L/Hand5_L
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Hand1_R
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Hand1_R/Hand2_R
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Hand1_R/Hand2_R/Hand3_R
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Hand1_R/Hand2_R/Hand3_R/Hand4_R
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Hand1_R/Hand2_R/Hand3_R/Hand4_R/Hand5_R
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Head_M
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Head_M/Antenna1_L
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Head_M/Antenna1_L/Antenna2_L
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Head_M/Antenna1_L/Antenna2_L/Antenna3_L
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Head_M/Antenna1_R
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Head_M/Antenna1_R/Antenna2_R
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Head_M/Antenna1_R/Antenna2_R/Antenna3_R
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Head_M/HeadEnd_M
+        weight: 1
+      - path: Root_M/Spine1_M/Chest_M/Head_M/Jaw
+        weight: 1
+      - path: Root_M/Tail1_M
+        weight: 1
+      - path: Root_M/Tail1_M/Tail2_M
+        weight: 1
+      - path: Root_M/Tail1_M/Tail2_M/Tail3_M
+        weight: 1
+      - path: Root_M/Tail1_M/Tail2_M/Tail3_M/Tail4_M
+        weight: 1
+      - path: Root_M/Tail1_M/Tail2_M/Tail3_M/Tail4_M/Tail5_M
+        weight: 1
+      - path: Root_M/Tail1_M/Tail2_M/Tail3_M/Tail4_M/Tail5_M/Tail6_M
+        weight: 1
+      - path: Root_M/Tail1_M/Tail2_M/Tail3_M/Tail4_M/Tail5_M/Tail6_M/Tail7_M
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

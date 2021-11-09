@@ -1,0 +1,50 @@
+Begin Object Class=/Script/Engine.Material Name="M_FPArms"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Texture=Texture2D'"/Game/FirstPersonBrawler/Character/Arms/fp_arms_nml.fp_arms_nml"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-656
+      MaterialExpressionEditorY=528
+      MaterialExpressionGuid=EA2D1F62400D421F4890EA95311A3B11
+      Material=Material'"M_FPArms"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/FirstPersonBrawler/Character/Arms/fp_arms_roughness.fp_arms_roughness"'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-656
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=5902D581417FCA5B2B840FBE7487A30C
+      Material=Material'"M_FPArms"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/FirstPersonBrawler/Character/Arms/fp_arms_albedo.fp_arms_albedo"'
+      MaterialExpressionEditorX=-656
+      MaterialExpressionGuid=B5227B814B513B0F3E9F0182B38A6C05
+      Material=Material'"M_FPArms"'
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Specular=(Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',OutputIndex=1,Mask=1,MaskR=1)
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   bUsedWithSkeletalMesh=True
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=B74A428D471980747B68CFA0B76F6607
+   CachedExpressionData=(ReferencedTextures=(Texture2D'"/Game/FirstPersonBrawler/Character/Arms/fp_arms_albedo.fp_arms_albedo"',Texture2D'"/Game/FirstPersonBrawler/Character/Arms/fp_arms_roughness.fp_arms_roughness"',Texture2D'"/Game/FirstPersonBrawler/Character/Arms/fp_arms_nml.fp_arms_nml"'),QualityLevelsUsed=(False,False,False,False))
+   ReferencedTextureGuids(0)=E9968BE94DD9D0DF2C8A058CDEBA91AC
+   ReferencedTextureGuids(1)=124E14B044A091F750B824B84F9E09CA
+   ReferencedTextureGuids(2)=BC7F734E439EA0B3225D73A9EA83CA21
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=AC7E956C4CC098C85ECA6E8244DDA4A8
+End Object

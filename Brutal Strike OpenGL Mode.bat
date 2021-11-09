@@ -1,0 +1,1 @@
+start "" "Brutal Strike.exe" -force-opengl

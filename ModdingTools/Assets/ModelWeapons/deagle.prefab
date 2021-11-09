@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1322476456996192}
+  m_IsPrefabAsset: 1
+--- !u!1 &1322476456996192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4344342374926744}
+  - component: {fileID: 114736192770923186}
+  m_Layer: 9
+  m_Name: deagle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4344342374926744
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1322476456996192}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114736192770923186
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1322476456996192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45685429353bcf4f97bbd7a740a4528, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponSetId: 1
+  teams:
+    selected: -1
+    names:
+    - None
+    - Spectators
+    - DeathMatch
+    - Terrorists
+    - CounterTerrorists
+    - Draw
+  weaponType: 0
+  gunName: Deagle
+  defCount: 3
+  secondaryCountDef: 7
+  maxCount: 1
+  runSpeed: 1
+  reloadTime: 2.1666667
+  drawTime: 1
+  canAimWhileShooting: 1
+  enableLookAtAnimation: 1
+  weight: 0.028
+  price: 650
+  allowed: 1
+  recoverLerp: 2
+  scopeFov: 5
+  dropAmmount: 1
+  aimSpeed: 16.5
+  draw:
+    volume: 1
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+  animationEvents:
+  - anim: 2
+    time: 0.46666667
+    audioClip:
+      volume: 1
+      audioClips: []
+      name: 
+      distantSound: {fileID: 0}
+  - anim: 2
+    time: 1.1333333
+    audioClip:
+      volume: 1
+      audioClips: []
+      name: 
+      distantSound: {fileID: 0}
+  - anim: 2
+    time: 0
+    audioClip:
+      volume: 1
+      audioClips: []
+      name: 
+      distantSound: {fileID: 0}
+  gunSkinPrefab: {fileID: 0}
+  weaponPickable: {fileID: 0}
+  handsPrefab: {fileID: 0}
+  thirdPersonAnimations:
+    m_keys: 00000000020000000400000007000000
+    m_values:
+    - {fileID: 7400092, guid: e7468f78a01b86e439c96f57154dab25, type: 3}
+    - {fileID: 7400096, guid: e7468f78a01b86e439c96f57154dab25, type: 3}
+    - {fileID: 7400150, guid: e7468f78a01b86e439c96f57154dab25, type: 3}
+    - {fileID: 7400004, guid: e7468f78a01b86e439c96f57154dab25, type: 3}
+  tpsRotationOffset: {x: 27, y: 0, z: 0}
+  id: 1122348750
+  groupNumber: 2
+  pl: {fileID: 0}
+  inited: 0
+  lastBought: 0
+  bought: 0
+  attachmentAvailable:
+    selected: -1
+    names:
+    - scope
+    - silencerSlot
+    - StockAttachment
+    - VerticalForegrip
+  sniper: 0
+  damage: 54
+  automatic: 0
+  shootInterval: 0.225
+  shootBump: 1
+  shootSpread: {x: 0, y: 2, z: 2}
+  bulletsPerShoot: 1
+  standStaticInAccuraty: 0.013
+  bulletPass: 2
+  Range: 4096
+  rangeModifier: 0.81
+  WallThroughFactor: 1
+  gravity: 0
+  WeaponArmorRatio: 1.5
+  bulletSpeedFactor: 1
+  colldown: 0.38683
+  runStaticInAccuraty: 0.0207
+  bulletWhistle:
+    volume: 1
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+  bulletric:
+    volume: 1
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+  zoomSound:
+    volume: 1
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+  dryFire:
+    volume: 1
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+  bulletPrefab: {fileID: 0}
+  shootSound:
+    volume: 1
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+  silencerSound:
+    volume: 1
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+  recoilCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

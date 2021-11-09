@@ -1,0 +1,50 @@
+145496: 11:20:18.291 - ---
+145496: 11:20:18.291 - Service: "Photon Socket Server" starting
+145496: 11:20:18.291 - Config File: C:\Users\friuns\Documents\unityHalf-life\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\PhotonServer.config
+145496: 11:20:18.292 - Will produce at most: 10 crash dumps
+145496: 11:20:18.292 - MessageBox: Photon Socket Server - 4.1.28.2936
+
+Usage: PhotonSocketServer.exe  Followed by the following command line options.
+  /help		Display this list.
+  /noMessages	Must be first. Do not display status messages.
+  /install name	Installs an instance of the service named 'name'.
+  /installCounters	Installs performance counters for this service.
+  /remove name	Removes the instance of the service named 'name'.
+  /removeCounters	Removes performance counters for this service.
+  /run name   	Runs the service as a normal process for debugging.
+  /stop         	Request all instances of Photon to shutdown and exit.
+  /stop1 name	Request instance 'name' of Photon shutdown and exit.
+  /configPath path	Use the supplied path to locate the config file.
+  /config file	Use the supplied config file.
+
+Note that /config and /configFile can be used with /install and /run
+
+Note that only /noMessages can be combined with all other command line options.
+
+145496: 11:20:21.094 - Service shutting down: commandline option error. Errorcode: 255
+145496: 11:20:21.096 - Service shut down complete
+145248: 11:20:26.249 - ---
+145248: 11:20:26.249 - Service: "Photon Socket Server" starting
+145248: 11:20:26.250 - Config File: C:\Users\friuns\Documents\unityHalf-life\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\PhotonServer.config
+145248: 11:20:26.250 - Will produce at most: 10 crash dumps
+145248: 11:20:26.250 - MessageBox: Photon Socket Server - 4.1.28.2936
+
+Usage: PhotonSocketServer.exe  Followed by the following command line options.
+  /help		Display this list.
+  /noMessages	Must be first. Do not display status messages.
+  /install name	Installs an instance of the service named 'name'.
+  /installCounters	Installs performance counters for this service.
+  /remove name	Removes the instance of the service named 'name'.
+  /removeCounters	Removes performance counters for this service.
+  /run name   	Runs the service as a normal process for debugging.
+  /stop         	Request all instances of Photon to shutdown and exit.
+  /stop1 name	Request instance 'name' of Photon shutdown and exit.
+  /configPath path	Use the supplied path to locate the config file.
+  /config file	Use the supplied config file.
+
+Note that /config and /configFile can be used with /install and /run
+
+Note that only /noMessages can be combined with all other command line options.
+
+145248: 11:20:29.501 - Service shutting down: commandline option error. Errorcode: 255
+145248: 11:20:29.503 - Service shut down complete

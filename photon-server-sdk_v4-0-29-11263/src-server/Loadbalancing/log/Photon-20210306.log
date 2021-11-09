@@ -1,0 +1,12 @@
+3812: 10:34:53.954 - ---
+3812: 10:34:53.954 - Service: "Photon Socket Server" starting
+3812: 10:34:53.955 - Config File: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\PhotonServer.LoadBalancing-Development.config
+3812: 10:34:53.955 - Will produce at most: 10 crash dumps
+3812: 10:34:53.956 - Service shutting down
+3812: 10:34:53.956 - Service shut down complete
+22676: 10:35:03.363 - ---
+22676: 10:35:03.363 - Service: "Photon Socket Server" starting
+22676: 10:35:03.363 - Config File: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\PhotonServer.LoadBalancing-Development.config
+22676: 10:35:03.364 - Will produce at most: 10 crash dumps
+22676: 10:35:03.364 - Service shutting down
+22676: 10:35:03.365 - Service shut down complete

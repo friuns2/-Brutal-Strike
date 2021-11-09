@@ -1,0 +1,477 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1459732636491948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813065635911606}
+  - component: {fileID: 114154635080837960}
+  m_Layer: 0
+  m_Name: ZombieClass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813065635911606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459732636491948}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114154635080837960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459732636491948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 920f0a5b3fa572346aec78862cd45dc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tr: {fileID: 0}
+  bodyDamage:
+    m_keys: 0a000000
+    m_values:
+    - 2
+  deadIcon: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  aliveIcon: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  weightCurve2: []
+  headHitDamage: 2
+  legHitDamage: 0.6
+  handHitDamage: 0.6
+  hidden: 0
+  enableKnocked: 0
+  weaponSets: 8
+  flying: 0
+  caryAnything: 1
+  targetSpeed: 3.5
+  q3StopSpeed: 2
+  q3Decline: 0.95
+  q3minVel: 0.2
+  playerLife: 100
+  canSell: 0
+  jump: 8
+  gravity: 1.5
+  weightMultiplyer: 1
+  fallDamageFactor: 0.3
+  hitSlowDown: 0.01
+  useThirdPerson: 1
+  zombie: 1
+  price: 0
+  animatedSpeedFactor: 1
+  teams:
+    selected: -1
+    names:
+    - Terrorists
+    - CounterTerrorists
+    indexes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000000000000000000000000000000000000
+  id: 0
+  hitSound:
+    volume: 0.3
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 8300000, guid: 5655ce0f732d7f44699e112ffb036e2a, type: 3}
+    - {fileID: 8300000, guid: 8ba4a9b247ddcb546bbabf211c003ab7, type: 3}
+    - {fileID: 8300000, guid: a79aec64836953e439e3ddcd3a806379, type: 3}
+    name: PlayerClass.hitSound
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  headShootSound:
+    volume: 1
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 0}
+    name: PlayerClass.headShootSound
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  dieSound:
+    volume: 1
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 8300000, guid: 1c53ed15cc6f8144f99e975cc11b191d, type: 3}
+    - {fileID: 8300000, guid: bd7c30719144f8349a546b20a1d19e1c, type: 3}
+    name: PlayerClass.dieSound
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  walkSound:
+    volume: 0.3
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 8300000, guid: 88b99329dce619e448ae237344aa88f4, type: 3}
+    - {fileID: 8300000, guid: d26eb9e79cda613438aeea3eb37be688, type: 3}
+    - {fileID: 8300000, guid: ddfa54ab9ee78f54cacb7b1fe58a8efc, type: 3}
+    - {fileID: 8300000, guid: 0d1c2d6f9469bdd4baf2abeb7baad5a5, type: 3}
+    name: PlayerClass.walkSound
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  walkSoundTags:
+    m_keys: []
+    m_values: []
+  fallSound:
+    volume: 1
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 0}
+    name: PlayerClass.fallSound
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  jumpSound:
+    volume: 1
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  landSound:
+    volume: 1
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  followMe:
+    volume: 1
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  takePoint:
+    volume: 1
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  gogogo:
+    volume: 1
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  speedToAccuracyCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  playerStates:
+  - Name: Walk
+    playerState: 0
+    speed: 1
+    controllerHeight: 1
+    skinOffset: 0
+    speedToAnim:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - Name: Prone
+    playerState: 1
+    speed: 1
+    controllerHeight: 1
+    skinOffset: 0
+    speedToAnim:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - Name: Crouch
+    playerState: 2
+    speed: 1
+    controllerHeight: 1
+    skinOffset: 0
+    speedToAnim:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - Name: Run
+    playerState: 3
+    speed: 2
+    controllerHeight: 1
+    skinOffset: 0
+    speedToAnim:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1.0019724
+        value: 2.0034757
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - Name: InAir
+    playerState: 4
+    speed: 1
+    controllerHeight: 1
+    skinOffset: 0
+    speedToAnim:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - Name: Knocked
+    playerState: 5
+    speed: 1
+    controllerHeight: 1
+    skinOffset: 0
+    speedToAnim:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - Name: Executing
+    playerState: 6
+    speed: 1
+    controllerHeight: 1
+    skinOffset: 0
+    speedToAnim:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - Name: Healing
+    playerState: 7
+    speed: 1
+    controllerHeight: 1
+    skinOffset: 0
+    speedToAnim:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - Name: Dead
+    playerState: 8
+    speed: 1
+    controllerHeight: 1
+    skinOffset: 0
+    speedToAnim:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  useRootMotion: 0
+  iGotSuplies:
+    volume: 1
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  imHit:
+    volume: 1
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  botSounds2:
+    volume: 1
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  botSounds3:
+    volume: 1
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  streffSpeed: 0.6
+  gips:
+    m_keys: 
+    m_values: []

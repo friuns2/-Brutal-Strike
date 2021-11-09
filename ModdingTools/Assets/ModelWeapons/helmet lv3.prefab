@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1298783878064610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4831301118890006}
+  - component: {fileID: 114578235543784522}
+  m_Layer: 0
+  m_Name: helmet lv3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4831301118890006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298783878064610}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114578235543784522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298783878064610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a5264b90c9e5942a27939af1875a54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tr: {fileID: 4831301118890006}
+  m_visualInaccuracy: 0
+  weaponSetId: 1
+  teams:
+    selected: -1
+    names:
+    - None
+    - Spectators
+    - DeathMatch
+    - Terrorists
+    - CounterTerrorists
+    - Draw
+    - WaitPls
+  weaponType: 2
+  gunName: helmet lv3
+  defCount: 0
+  secondaryCountDef: 0
+  maxCount: 1
+  runSpeed: 1
+  reloadTime: 1
+  drawTime: 0.5
+  canAimWhileShooting: 1
+  enableLookAtAnimation: 1
+  weight: 0
+  price: 600
+  disabled: 0
+  prematchOnly: 0
+  recoverLerp: 2
+  scopeFov: 5
+  dropAmmount: 1
+  aimSpeed: 16.5
+  hardcoreRecoil: 1
+  draw:
+    volume: 1
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  animationEvents: []
+  gunSkinPrefab: {fileID: 0}
+  weaponPickable: {fileID: 0}
+  handsPrefab: {fileID: 0}
+  thirdPersonAnimations:
+    m_keys: 
+    m_values: []
+  tpsRotationOffset: {x: 27, y: 0, z: 0}
+  id: 748922787
+  groupNumber: 0
+  pl: {fileID: 0}
+  assetLoaded: 0
+  inited: 0
+  shootTime: 0
+  lastBought: 0
+  bought: 0
+  attachmentAvailable:
+    selected: -1
+    names:
+    - scope
+    - silencerSlot
+    - StockAttachment
+    - VerticalForegrip
+  special: 0
+  hitSound:
+    volume: 1
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  shield: 0.5
+  body: 

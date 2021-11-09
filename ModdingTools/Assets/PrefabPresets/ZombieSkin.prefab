@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1920882170932432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4084133720569828}
+  - component: {fileID: 114683901591876778}
+  m_Layer: 0
+  m_Name: ZombieSkin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4084133720569828
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920882170932432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114683901591876778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920882170932432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95a8d25e270a9b949b35eb4a78089b12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tr: {fileID: 4084133720569828}
+  disableArmorSkins: 1
+  glasses: {fileID: 0}
+  icon: {fileID: 0}
+  icons: []
+  cameraPreviewRotation: {x: 0, y: 0, z: 0, w: 0}
+  cameraPreviewPosition: {x: 0, y: 0, z: 0}
+  cameraPreviewFov: 0
+  cameraTargetOffset: {x: 0, y: 0.4, z: -3}
+  parameterToHash: 
+  headTransform: {fileID: 0}
+  gunPlaceHolder: {fileID: 0}
+  helmetPlaceHolder: {fileID: 0}
+  bodyToTransform:
+    m_keys: 
+    m_values: []
+  playerClassId: 0
+  id: 0
+  colliders: []
+  rigidbodies: []
+  joints: []
+  renderers: []
+  transformCache: {fileID: 0}
+  transformCacheOutline: {fileID: 0}
+  teams:
+    selected: -1
+    names:
+    - None
+    - Spectators
+    - DeathMatch
+    - Terrorists
+    - CounterTerrorists
+    - Draw
+    indexes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000000000000000000000000000000000000
+  animWalkFactorCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1.9758923
+      outSlope: 1.9758923
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.0039372
+      value: 1.9836719
+      inSlope: 1.9758923
+      outSlope: 1.9758923
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  disabled: 0
+  animations:
+    m_keys: 
+    m_values: []
+  thirdPersonRotationOffset: {x: 0, y: 0, z: 0}
+  thirdPersonRotationOffsetProne: {x: 0, y: 0, z: 0}
+  bot: 0
+  pl: {fileID: 0}
+  isRagdoll: 0
+  lockPositions: []

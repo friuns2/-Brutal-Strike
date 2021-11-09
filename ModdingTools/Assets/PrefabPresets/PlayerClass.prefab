@@ -1,0 +1,682 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1745030867461092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4230007414699366}
+  - component: {fileID: 114829858639744474}
+  m_Layer: 0
+  m_Name: PlayerClass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4230007414699366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745030867461092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114829858639744474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745030867461092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 920f0a5b3fa572346aec78862cd45dc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tr: {fileID: 0}
+  bodyDamage:
+    m_keys: 0a000000
+    m_values:
+    - 2
+  deadIcon: {fileID: 21300000, guid: c065419fdb3fd8d4db3a032665754f15, type: 3}
+  aliveIcon: {fileID: 21300000, guid: 8386e1049e5338c45ab3a6c5eb75d32f, type: 3}
+  weightCurve2:
+  - {x: 0, y: 1}
+  - {x: 6, y: 0.9}
+  - {x: 10, y: 0.8}
+  headHitDamage: 2
+  legHitDamage: 0.6
+  handHitDamage: 0.6
+  hidden: 0
+  enableKnocked: 1
+  weaponSets: 1
+  flying: 0
+  caryAnything: 0
+  targetSpeed: 5
+  q3StopSpeed: 2
+  q3Decline: 0.90384614
+  q3minVel: 0.1
+  playerLife: 100
+  canSell: 0
+  jump: 8
+  gravity: 2
+  weightMultiplyer: 1
+  fallDamageFactor: 0.7
+  hitSlowDown: 1
+  useThirdPerson: 0
+  zombie: 0
+  price: 0
+  animatedSpeedFactor: 0.3
+  teams:
+    selected: -1
+    names:
+    - Terrorists
+    - CounterTerrorists
+    indexes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000000000000000000000000000000000000
+  id: 3362
+  hitSound:
+    playInSequence: 0
+    volume: 1
+    audioClipLoudness: 0.72961426
+    audioClips:
+    - {fileID: 8300000, guid: 286bf3d3948a6a24e92a95d5f90912a0, type: 3}
+    - {fileID: 8300000, guid: be5fa94af9734584db471283089cc665, type: 3}
+    - {fileID: 8300000, guid: 6e5b00f1baae0664da44e3875e13664a, type: 3}
+    - {fileID: 8300000, guid: c05b5571300a3094183a8442e5d838f5, type: 3}
+    - {fileID: 8300000, guid: ce93727b97523974ca2d22266d443fba, type: 3}
+    - {fileID: 8300000, guid: e9c825c39d382af4789d98b595e42a5b, type: 3}
+    name: PlayerClass.hitSound
+    lastPlayTime: 0
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  headShootSound:
+    playInSequence: 0
+    volume: 1
+    audioClipLoudness: 0.7315979
+    audioClips:
+    - {fileID: 8300000, guid: 2b4f16e8165e2214e99e85e544c93e0b, type: 3}
+    name: PlayerClass.headShootSound
+    lastPlayTime: 0
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  dieSound:
+    playInSequence: 0
+    volume: 0.4
+    audioClipLoudness: 0.9959717
+    audioClips:
+    - {fileID: 8300000, guid: f68b24f8ad6f566498d9f0575e92a08a, type: 3}
+    - {fileID: 8300000, guid: a873f4ba71fedda40a4f950f0129a8ae, type: 3}
+    - {fileID: 8300000, guid: 7639b3ad195ac47478cf51ed89873e43, type: 3}
+    - {fileID: 8300000, guid: c8d69621c996baa499fbe8e65a081fd1, type: 3}
+    - {fileID: 8300000, guid: 2c0884adcf48c154697945f2b83b19f6, type: 3}
+    - {fileID: 8300000, guid: 6b107d03f969e3842b2b4c011c22c5e1, type: 3}
+    name: PlayerClass.dieSound
+    lastPlayTime: 0
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  walkSound:
+    playInSequence: 1
+    volume: 0.3
+    audioClipLoudness: 0.9093933
+    audioClips:
+    - {fileID: 8300000, guid: 2595f7c9819643c498c5619784a7b841, type: 3}
+    - {fileID: 8300000, guid: 8eba817b5e746994cb73bd7c6885a016, type: 3}
+    - {fileID: 8300000, guid: 35857a05a03bb964b93492b8c856d97c, type: 3}
+    - {fileID: 8300000, guid: fbad7b8d28bf612498205ab146900366, type: 3}
+    - {fileID: 8300000, guid: 695e920161e33bb40ba56717416c155c, type: 3}
+    - {fileID: 8300000, guid: 8c80e01f18bed6e459022226eec8a95d, type: 3}
+    - {fileID: 8300000, guid: efef7619fd777c74d84c3173f7694851, type: 3}
+    - {fileID: 8300000, guid: 0b6a5d4a3ba81db478fa553059332679, type: 3}
+    - {fileID: 8300000, guid: 86dfd03badfdf18448436ca9c13575df, type: 3}
+    name: PlayerClass.walkSound
+    lastPlayTime: 0
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  enemyWalkSound:
+    playInSequence: 1
+    volume: 0.3
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 8300000, guid: 2595f7c9819643c498c5619784a7b841, type: 3}
+    - {fileID: 8300000, guid: 8eba817b5e746994cb73bd7c6885a016, type: 3}
+    - {fileID: 8300000, guid: 35857a05a03bb964b93492b8c856d97c, type: 3}
+    - {fileID: 8300000, guid: fbad7b8d28bf612498205ab146900366, type: 3}
+    - {fileID: 8300000, guid: 695e920161e33bb40ba56717416c155c, type: 3}
+    - {fileID: 8300000, guid: 8c80e01f18bed6e459022226eec8a95d, type: 3}
+    - {fileID: 8300000, guid: efef7619fd777c74d84c3173f7694851, type: 3}
+    - {fileID: 8300000, guid: 0b6a5d4a3ba81db478fa553059332679, type: 3}
+    - {fileID: 8300000, guid: 86dfd03badfdf18448436ca9c13575df, type: 3}
+    name: 
+    lastPlayTime: 0
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  walkSoundTags:
+    m_keys:
+    - water;lake
+    - floor;house
+    m_values:
+    - playInSequence: 0
+      volume: 0.3
+      audioClipLoudness: 0.9076843
+      audioClips:
+      - {fileID: 8300000, guid: 1fa82591957e66f4ca743840c001903c, type: 3}
+      - {fileID: 8300000, guid: db28742dd7fa5ad4094ab62292a81594, type: 3}
+      - {fileID: 8300000, guid: af7717acecb278e4da54cd247e5cf3c3, type: 3}
+      - {fileID: 8300000, guid: 6a3d5fe022f250743ba6a2ded2d49ed0, type: 3}
+      name: PlayerClass.data
+      lastPlayTime: 0
+      distantSound: {fileID: 0}
+      distantSoundVolume: 0
+    - playInSequence: 0
+      volume: 1
+      audioClipLoudness: 0.9076843
+      audioClips:
+      - {fileID: 8300000, guid: c6043fe4e6213734a9fe57aec56c62d6, type: 3}
+      - {fileID: 8300000, guid: b891b856aba163b4d88bd28bb5bfb2a1, type: 3}
+      - {fileID: 8300000, guid: 872b9d302bc63b74a8c1ff46657f78b2, type: 3}
+      - {fileID: 8300000, guid: 12802302e40be234d88fcbfdfd228e38, type: 3}
+      name: PlayerClass.data
+      lastPlayTime: 0
+      distantSound: {fileID: 0}
+      distantSoundVolume: 0
+  fallSound:
+    playInSequence: 0
+    volume: 1
+    audioClipLoudness: 0.72961426
+    audioClips:
+    - {fileID: 8300000, guid: 286bf3d3948a6a24e92a95d5f90912a0, type: 3}
+    - {fileID: 8300000, guid: be5fa94af9734584db471283089cc665, type: 3}
+    - {fileID: 8300000, guid: 6e5b00f1baae0664da44e3875e13664a, type: 3}
+    name: PlayerClass.fallSound
+    lastPlayTime: 0
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  jumpSound:
+    playInSequence: 0
+    volume: 0.3
+    audioClipLoudness: 0.29345703
+    audioClips:
+    - {fileID: 8300000, guid: a83874027037c1f49bfbe064fff380e2, type: 3}
+    name: PlayerClass.jumpSound
+    lastPlayTime: 0
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  landSound:
+    playInSequence: 0
+    volume: 1
+    audioClipLoudness: 0.9493408
+    audioClips:
+    - {fileID: 8300000, guid: 1689deef24154ad4b81be860ed55a257, type: 3}
+    name: PlayerClass.landSound
+    lastPlayTime: 0
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  followMe:
+    playInSequence: 0
+    volume: 1
+    audioClipLoudness: 0.9999695
+    audioClips:
+    - {fileID: 8300000, guid: c1254067cb811ab48aac6c545d7511e8, type: 3}
+    name: PlayerClass.followMe
+    lastPlayTime: 0
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  takePoint:
+    playInSequence: 0
+    volume: 1
+    audioClipLoudness: 0.9999695
+    audioClips:
+    - {fileID: 8300000, guid: 961d1bdacf89ee54aa094e948c8d8ca4, type: 3}
+    name: PlayerClass.takePoint
+    lastPlayTime: 0
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  gogogo:
+    playInSequence: 0
+    volume: 1
+    audioClipLoudness: 0.9999695
+    audioClips:
+    - {fileID: 8300000, guid: 7555d6bb536fdeb4fba96235ab2086cf, type: 3}
+    name: PlayerClass.gogogo
+    lastPlayTime: 0
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  speedToAccuracyCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.0007755249
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5967742
+      value: 1.0378819
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.5
+      value: 1.2038229
+      inSlope: Infinity
+      outSlope: Infinity
+      tangentMode: 103
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  playerStates:
+  - Name: Walk
+    playerState: 0
+    speed: 1
+    controllerHeight: 1
+    skinOffset: 0
+    speedToAnim:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.843614
+        outSlope: 0.843614
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.055913977
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2.5715709
+        outSlope: 2.5715709
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.031182766
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - Name: Prone
+    playerState: 1
+    speed: 0.3
+    controllerHeight: 0.3
+    skinOffset: 0
+    speedToAnim:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - Name: Crouch
+    playerState: 2
+    speed: 0.7
+    controllerHeight: 0.3
+    skinOffset: 0
+    speedToAnim:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.20103437
+        value: 0.7421189
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - Name: Run
+    playerState: 3
+    speed: 1.3
+    controllerHeight: 1
+    skinOffset: 0
+    speedToAnim:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - Name: InAir
+    playerState: 4
+    speed: 0.7
+    controllerHeight: 1
+    skinOffset: 0
+    speedToAnim:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - Name: Knocked
+    playerState: 5
+    speed: 1
+    controllerHeight: 1
+    skinOffset: 0
+    speedToAnim:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - Name: Executing
+    playerState: 6
+    speed: 0
+    controllerHeight: 1
+    skinOffset: 0
+    speedToAnim:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - Name: Healing
+    playerState: 7
+    speed: 0.1
+    controllerHeight: 1
+    skinOffset: 0
+    speedToAnim:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - Name: Dead
+    playerState: 8
+    speed: 0
+    controllerHeight: 1
+    skinOffset: 0
+    speedToAnim:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  useRootMotion: 0
+  iGotSuplies:
+    playInSequence: 0
+    volume: 1
+    audioClipLoudness: 0.2949524
+    audioClips:
+    - {fileID: 8300000, guid: 34cc362802e2c394cbc01ba0c12df26b, type: 3}
+    name: PlayerClass.iGotSuplies
+    lastPlayTime: 0
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  botSounds2:
+    playInSequence: 0
+    volume: 1
+    audioClipLoudness: 0.9980469
+    audioClips:
+    - {fileID: 8300000, guid: d40167a8f2694404ea94f27573eb410c, type: 3}
+    - {fileID: 8300000, guid: a24ad81212608e34082f002534cff1d7, type: 3}
+    - {fileID: 8300000, guid: e1b90edd65399154c925de1c6a489142, type: 3}
+    - {fileID: 8300000, guid: 2a8e35506218bfc48b52416f4e04fc89, type: 3}
+    - {fileID: 8300000, guid: 074cd0ac5057e0e46bc0bff8bcae89dd, type: 3}
+    - {fileID: 8300000, guid: 7b0007d58041ed6469f74d2a3dad0303, type: 3}
+    - {fileID: 8300000, guid: b056fef110f98ad4fa64bebf30ef9062, type: 3}
+    - {fileID: 8300000, guid: 3f37200c2e9a93e45940118963c182de, type: 3}
+    name: PlayerClass.botSounds2
+    lastPlayTime: 0
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  botSounds3:
+    playInSequence: 0
+    volume: 2
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 8300000, guid: ea970feaf3fd38d43888ba70087c0f36, type: 3}
+    - {fileID: 8300000, guid: 6137f88d9fb05b84f96c0d2251a137da, type: 3}
+    - {fileID: 8300000, guid: 57e23824bcc80e74a869705540ca09e6, type: 3}
+    - {fileID: 8300000, guid: 253b7289fb28dba498517153bb68027b, type: 3}
+    - {fileID: 8300000, guid: 2edf4f8450bccfc42ab5f375993bd24c, type: 3}
+    - {fileID: 8300000, guid: 126f5550707fd9f41b4e3321d2951371, type: 3}
+    - {fileID: 8300000, guid: c23189ca041e2f84bba0555c43099be9, type: 3}
+    - {fileID: 8300000, guid: b10ecbca6b3c92d4f9f6a1495827d44a, type: 3}
+    - {fileID: 8300000, guid: c0142696a7519fe49b2bc65b4e9353c5, type: 3}
+    - {fileID: 8300000, guid: 1639bb79dfbe3f040a6169e4f4d15ffd, type: 3}
+    - {fileID: 8300000, guid: d56b203fd2189cd4d8da32a9d2d98acd, type: 3}
+    - {fileID: 8300000, guid: a21c363deae6c554fa86954cd77c8ebb, type: 3}
+    - {fileID: 8300000, guid: 70738a1bab8850649998ca653e2267f1, type: 3}
+    - {fileID: 8300000, guid: d553dae1330cd8546a77cbf60d0c8b90, type: 3}
+    - {fileID: 8300000, guid: 5bf198cf215a4de4e88ca4384e1bd5b5, type: 3}
+    - {fileID: 8300000, guid: 46b5004fcac3b3c438c468de5202f0f2, type: 3}
+    - {fileID: 8300000, guid: 23f2c070528e24746a5a7009c42ef505, type: 3}
+    - {fileID: 8300000, guid: 393a322b2fa22df4e9fd937279278bb6, type: 3}
+    - {fileID: 8300000, guid: f73a0d796be468843ac2f4e274d174a5, type: 3}
+    - {fileID: 8300000, guid: c262aba49945e2b43941086b7ef9cbed, type: 3}
+    - {fileID: 8300000, guid: 126831999e4e46c4a8d1cb753dac3623, type: 3}
+    - {fileID: 8300000, guid: 3df1ed81fdbd19a4e86348389574dcd3, type: 3}
+    - {fileID: 8300000, guid: aede0519792ac63449a8f14579863c52, type: 3}
+    - {fileID: 8300000, guid: 17502eedbd864614d9ff5001997418ad, type: 3}
+    - {fileID: 8300000, guid: 1635092f2cda5ff47b5a34e48deedcd4, type: 3}
+    - {fileID: 8300000, guid: e57d1522f21aca749afcda73782340ba, type: 3}
+    - {fileID: 8300000, guid: 8e3e3d4efa0759b47a1f57d37ec5ef60, type: 3}
+    name: 
+    lastPlayTime: 0
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  streffSpeed: 0.6
+  gips:
+    m_keys: 0a000000010000000300000002000000040000000d0000000f0000000e00000010000000
+    m_values:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  helpSound:
+    playInSequence: 0
+    volume: 2
+    audioClipLoudness: 0.36114502
+    audioClips:
+    - {fileID: 8300000, guid: 81df8c2ec408b704fb69fd0fbcdb8449, type: 3}
+    - {fileID: 8300000, guid: 7814918f93908694fa56be4097f19b4a, type: 3}
+    - {fileID: 8300000, guid: ebb97b737c9351c499573f82503e1fd4, type: 3}
+    - {fileID: 8300000, guid: 3f25f23acac9a0745b65815237863157, type: 3}
+    - {fileID: 8300000, guid: 58066a53017fe0b4b8f217391ddb09f4, type: 3}
+    - {fileID: 8300000, guid: 22488f2b6eeb2e44da247599e8b0dd9c, type: 3}
+    name: PlayerClass.helpSound
+    lastPlayTime: 0
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  imHit:
+    playInSequence: 0
+    volume: 1
+    audioClipLoudness: 0.9999695
+    audioClips:
+    - {fileID: 8300000, guid: 22488f2b6eeb2e44da247599e8b0dd9c, type: 3}
+    - {fileID: 8300000, guid: 58066a53017fe0b4b8f217391ddb09f4, type: 3}
+    name: PlayerClass.imHit
+    lastPlayTime: 0
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  thank:
+    playInSequence: 0
+    volume: 1
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 8300000, guid: 18a16ecc7ce76bd46a11d00ed60a12b7, type: 3}
+    - {fileID: 8300000, guid: 11383984637dd8f4086234b690ced8a3, type: 3}
+    name: 
+    lastPlayTime: 0
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  reviveSound:
+    playInSequence: 0
+    volume: 1
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 8300000, guid: aaccdc11c078cbc4c82c50e19b55b270, type: 3}
+    - {fileID: 8300000, guid: 63b97e1b7485e3745b714ac345288ad1, type: 3}
+    name: 
+    lastPlayTime: 0
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1

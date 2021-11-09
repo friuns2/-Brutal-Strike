@@ -1,0 +1,1 @@
+start /D "./LevelEditorTools/" UnityLauncherPro.exe -projectPath ""

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: awpHands
+  m_Controller: {fileID: 9100000, guid: 16bfdaba019c37846a865780094ec3a2, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 4a3f0f0afd0af79499cacf7366fa3bbb, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: efad2ca189d29b245830ccd1645612b7, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: e60b0b4bddd389b469b864806056a54a, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 544d5c1b5255ecf479850498ee663905, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 038687997a2843a47848e644bc71c395, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 0d658bfa16de40c4085fd744d023f6ed, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 33e665b2044b1554387db8b814cbcebf, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 4d84ddf05c673854daf80cfa6cbe372b, type: 3}

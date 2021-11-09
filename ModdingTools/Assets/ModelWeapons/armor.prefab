@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1132272212359366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4554197599671536}
+  - component: {fileID: 114670945150825438}
+  m_Layer: 9
+  m_Name: armor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4554197599671536
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132272212359366}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114670945150825438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132272212359366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a5264b90c9e5942a27939af1875a54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tr: {fileID: 4554197599671536}
+  weaponSetId: 1
+  teams:
+    selected: -1
+  weaponType: 2
+  gunName: c4
+  defCount: 0
+  secondaryCountDef: 0
+  maxCount: 99
+  runSpeed: 1
+  reloadTime: 2.76
+  drawTime: 0.5
+  canAimWhileShooting: 1
+  enableLookAtAnimation: 1
+  weight: 0
+  m_price: 100
+  disabled: 0
+  prematchOnly: 0
+  scopeFov: 5
+  dropAmmount: 1
+  m_aimSpeed: 16.5
+  draw:
+    volume: 1
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 0}
+    name: 
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  animationEvents: []
+  gunSkinPrefab: {fileID: 0}
+  weaponPickable: {fileID: 0}
+  handsPrefab: {fileID: 0}
+  thirdPersonAnimations:
+    m_keys: 0000000008000000
+    m_values:
+    - {fileID: 7400000, guid: c01aae9963278934baad1529e4ac8161, type: 3}
+    - {fileID: 7400000, guid: af756048373646445844d96cf9d54d8e, type: 3}
+  id: 5
+  WeaponArmorRatio: 1
+  selected: 0
+  groupNumber: 0
+  assetLoaded: 0
+  inited: 0
+  shootTime: 0
+  lastBought: 0
+  bought: 0
+  special: 0
+  hitSound:
+    volume: 0.2
+    audioClipLoudness: 0
+    audioClips:
+    - {fileID: 8300000, guid: c1c5828fd95787a43839a4d4d4a456ad, type: 3}
+    - {fileID: 8300000, guid: c8b5684fd0bb98b40bfbef0a95aa16a3, type: 3}
+    - {fileID: 8300000, guid: 5fa6c9550b2808c46aecb6c5d7358cb4, type: 3}
+    name: 
+    distantSound: {fileID: 0}
+    distantSoundVolume: 1
+  shield: 0.5
+  body: 00000000070000003600000008000000

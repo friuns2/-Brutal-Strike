@@ -1,0 +1,1 @@
+start /D "./ModdingTools/" UnityLauncherPro.exe -projectPath ""

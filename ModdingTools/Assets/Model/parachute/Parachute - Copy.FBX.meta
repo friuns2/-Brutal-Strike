@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 210f044ba88850a4c8332f7b972b20b1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BACKPACK
+    100002: CHUTE_MID_C0
+    100004: CHUTE_MID_C1
+    100006: CHUTE_MID_C10
+    100008: CHUTE_MID_C11
+    100010: CHUTE_MID_C12
+    100012: CHUTE_MID_C13
+    100014: CHUTE_MID_C14
+    100016: CHUTE_MID_C15
+    100018: CHUTE_MID_C2
+    100020: CHUTE_MID_C3
+    100022: CHUTE_MID_C4
+    100024: CHUTE_MID_C5
+    100026: CHUTE_MID_C6
+    100028: CHUTE_MID_C7
+    100030: CHUTE_MID_C8
+    100032: CHUTE_MID_C9
+    100034: CHUTE_ROOT
+    100036: CHUTE_TOP_C0
+    100038: CHUTE_TOP_C1
+    100040: CHUTE_TOP_C10
+    100042: CHUTE_TOP_C11
+    100044: CHUTE_TOP_C12
+    100046: CHUTE_TOP_C13
+    100048: CHUTE_TOP_C14
+    100050: CHUTE_TOP_C15
+    100052: CHUTE_TOP_C16
+    100054: CHUTE_TOP_C17
+    100056: CHUTE_TOP_C18
+    100058: CHUTE_TOP_C19
+    100060: CHUTE_TOP_C2
+    100062: CHUTE_TOP_C20
+    100064: CHUTE_TOP_C3
+    100066: CHUTE_TOP_C4
+    100068: CHUTE_TOP_C5
+    100070: CHUTE_TOP_C6
+    100072: CHUTE_TOP_C7
+    100074: CHUTE_TOP_C8
+    100076: CHUTE_TOP_C9
+    100078: HANDLE_L0
+    100080: HANDLE_L1
+    100082: HANDLE_R0
+    100084: HANDLE_R1
+    100086: Main_Root
+    100088: //RootNode
+    100090: SKV_SD_Parachute
+    400000: BACKPACK
+    400002: CHUTE_MID_C0
+    400004: CHUTE_MID_C1
+    400006: CHUTE_MID_C10
+    400008: CHUTE_MID_C11
+    400010: CHUTE_MID_C12
+    400012: CHUTE_MID_C13
+    400014: CHUTE_MID_C14
+    400016: CHUTE_MID_C15
+    400018: CHUTE_MID_C2
+    400020: CHUTE_MID_C3
+    400022: CHUTE_MID_C4
+    400024: CHUTE_MID_C5
+    400026: CHUTE_MID_C6
+    400028: CHUTE_MID_C7
+    400030: CHUTE_MID_C8
+    400032: CHUTE_MID_C9
+    400034: CHUTE_ROOT
+    400036: CHUTE_TOP_C0
+    400038: CHUTE_TOP_C1
+    400040: CHUTE_TOP_C10
+    400042: CHUTE_TOP_C11
+    400044: CHUTE_TOP_C12
+    400046: CHUTE_TOP_C13
+    400048: CHUTE_TOP_C14
+    400050: CHUTE_TOP_C15
+    400052: CHUTE_TOP_C16
+    400054: CHUTE_TOP_C17
+    400056: CHUTE_TOP_C18
+    400058: CHUTE_TOP_C19
+    400060: CHUTE_TOP_C2
+    400062: CHUTE_TOP_C20
+    400064: CHUTE_TOP_C3
+    400066: CHUTE_TOP_C4
+    400068: CHUTE_TOP_C5
+    400070: CHUTE_TOP_C6
+    400072: CHUTE_TOP_C7
+    400074: CHUTE_TOP_C8
+    400076: CHUTE_TOP_C9
+    400078: HANDLE_L0
+    400080: HANDLE_L1
+    400082: HANDLE_R0
+    400084: HANDLE_R1
+    400086: Main_Root
+    400088: //RootNode
+    400090: SKV_SD_Parachute
+    2100000: M_SD_Parachute
+    4300000: SKV_SD_Parachute
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: SKV_SD_Parachute
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

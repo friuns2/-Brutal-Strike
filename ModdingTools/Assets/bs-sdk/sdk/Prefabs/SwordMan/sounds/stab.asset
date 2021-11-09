@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115b0553ef9e4ecf8893ee09fcae7664, type: 3}
+  m_Name: stab
+  m_EditorClassIdentifier: 
+  play:
+  - {fileID: 8300000, guid: 3dfa796b6f3970340a3abf8dc72dc94a, type: 3}
+  - {fileID: 8300000, guid: 10e181f43d882754d91b36cfe3c6a003, type: 3}
+  - {fileID: 8300000, guid: 4c1e610754064c34b93bbd43ac593d11, type: 3}
+  - {fileID: 8300000, guid: 8be579c2449fab94d8fb9242176c1f31, type: 3}
+  - {fileID: 8300000, guid: 9dee83de992a79546acf6a11ecc5d194, type: 3}
+  - {fileID: 8300000, guid: fafc2949488622e42b1ae3d0b32e62a0, type: 3}
+  - {fileID: 8300000, guid: 474a42d873922ee4997cfb7964f57252, type: 3}
+  - {fileID: 8300000, guid: 3c8bbb9c8018bdc4c8497cc7f7b673e2, type: 3}

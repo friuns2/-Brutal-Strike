@@ -1,0 +1,16 @@
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\bin\Debug\Photon.UnitTest.Utils.dll
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\bin\Debug\Photon.UnitTest.Utils.pdb
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\bin\Debug\ExitGamesLibs.dll
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\bin\Debug\nunit.framework.dll
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\bin\Debug\Photon.SocketServer.dll
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\bin\Debug\Photon3DotNet.dll
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\bin\Debug\PhotonHostRuntimeInterfaces.dll
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\bin\Debug\websocket-sharp.dll
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\bin\Debug\ExitGamesLibs.pdb
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\bin\Debug\ExitGamesLibs.xml
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\bin\Debug\Photon.SocketServer.pdb
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\bin\Debug\Photon.SocketServer.xml
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\bin\Debug\Photon3DotNet.pdb
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\bin\Debug\Photon3DotNet.xml
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\obj\Debug\Photon.UnitTest.Utils.dll
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\obj\Debug\Photon.UnitTest.Utils.pdb
