@@ -1,2 +1,2 @@
-..\git\bin\git.exe reset --hard HEAD~1
+git\bin\git.exe reset --hard HEAD~1
 pause
