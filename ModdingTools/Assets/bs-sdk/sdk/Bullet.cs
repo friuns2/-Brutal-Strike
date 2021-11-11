@@ -560,7 +560,7 @@ public class Bullet : BulletBase,IOnLoadAsset
     {
 
         // if (!Android || CheckRayOrNearAndroid(h.point))
-            if (h.collider is MeshCollider || h.collider is TerrainCollider)
+            if (h.collider is MeshCollider m && !m.convex || h.collider is TerrainCollider)
             {
                 
                 _Game.EmitParticles(h.point + h.normal * .005f, h.normal, h.transform.CompareTag(Tag.Glass) ? _Game.res.glassHoleDecal.transform : wep.holeDecal, true, maxParticlesPerSecond: 5);

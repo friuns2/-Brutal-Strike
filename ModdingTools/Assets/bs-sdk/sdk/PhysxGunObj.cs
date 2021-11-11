@@ -15,19 +15,15 @@ public class PhysxGunObj:bs,IOnStartGame
         lastTime = Time.time;
     }
     internal float lastTime;
+    public float lastAttack;
     public override void OnDestroy()
     {
         base.OnDestroy();
         Register(this, false);
         Register<IOnStartGame>(this, false);
     }
-    private void Update()
-    {
-        if (rg.mass > 4)
-            rg.mass = Mathf.MoveTowards(rg.mass, 4, Time.deltaTime );
-        else
-            enabled = false;
-    }
+    
+    
     public void OnStartGame()
     {
         Destroy(gameObject);

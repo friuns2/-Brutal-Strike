@@ -13,8 +13,9 @@ public class PhysxGun : GunBase
     public AudioClip2 start;
     internal  float lastPlayTime;
     public float randomScale;
-    public int maxItems = 20;
-    public float spawnInterval = .5f;
+    public int maxItems =5;
+    public float spawnInterval = .1f;
+    public float shootForce = 100;
     // public List<GameObject> addMeshCollider = new List<GameObject>();
     public AudioClip gravityGun;
     
@@ -28,6 +29,8 @@ public class PhysxGun : GunBase
         base.OnSelectGun(selected);
         if (!handsAnimation)
             handsAnimation = Hands.GetComponentInChildren<Animation>();
+        if(!selected)
+            pl.weaponAudioSource.Stop();
     }
     public override void OnLoadAsset()
     {
@@ -58,7 +61,7 @@ public class PhysxGun : GunBase
         }
 
 
-        var mouseButton = pl.InputGetKey(KeyCode.Mouse0) && TimeCached.time - shootTime > .5f;
+        var mouseButton = pl.InputGetKey(KeyCode.Mouse0) && TimeCached.time - shootTime > 1.5f;
         var mouseUp = oldMouseButton && !mouseButton;
         var mouseDown = !oldMouseButton && mouseButton;
         oldMouseButton = mouseButton;
@@ -99,13 +102,13 @@ public class PhysxGun : GunBase
         {
             
             if(lastCnt<maxItems && TimeElapsed(spawnInterval))
-            // for (int i = 0; i <  maxItems-lastCnt; i++)
             {
                 var normalized = Random.insideUnitCircle.normalized;
                 normalized.y = Mathf.Max(normalized.y, 0);
-                var plPos = pl.pos + pl.rot * normalized * Random.Range(4, 6);
+                var plPos = pl.pos + pl.rot * normalized * Random.Range(2, 5);
                 var cube = Instantiate(trs.Random(), plPos, Random.rotation);
                 cube.createTime = TimeCached.time;
+                cube.gun = this;
                 Debug.DrawRay(pl.pos, plPos, Color.red, 10);
                 if (randomScale > 0)
                     cube.transform.localScale = Random.insideUnitSphere * randomScale;
@@ -132,13 +135,12 @@ public class PhysxGun : GunBase
                 var sqrMagnitude = v.sqrMagnitude;
                 var magnitude = Mathf.Sqrt(sqrMagnitude);
 
-                var mass = r.mass;
-                if (mass > 4 || magnitude > 25) continue;
+                if (TimeCached.time - o.lastAttack<2 || magnitude > 25) continue;
                 o.lastTime = TimeCached.time;
-                if (magnitude < 10)
+                if (magnitude < 5)
                 {
                     cnt++;
-                    r.detectCollisions = !(magnitude > 5 && r.velocity.magnitude < 2) || mass > 4;
+                    r.detectCollisions = !(magnitude > 5 && r.velocity.magnitude < 2) ;
                     o.gun = this;
                 }
 
@@ -148,9 +150,11 @@ public class PhysxGun : GunBase
                     if (magnitude < 3)
                     {
                         o.gun = this;
-                        r.mass = 10;
                         o.enabled = true;
-                        r.AddForce(pl.Cam.forward * 300, ForceMode.Impulse);
+                        r.detectCollisions = true;
+                        o.lastAttack = Time.time;
+                        r.AddForce(pl.Cam.forward * shootForce, ForceMode.Impulse);
+                        
                     }
                 }
                 else
