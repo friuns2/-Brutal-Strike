@@ -2,9 +2,9 @@ Echo "Updating the game please wait..."
 if not exist ./git/ (
 
 if not exist %SystemRoot%\System32\curl.exe (
-certutil.exe -urlcache -split -f https://github.com/git-for-windows/git/releases/download/v2.30.1.windows.1/PortableGit-2.30.1-32-bit.7z.exe gitSetup.exe
+%SystemRoot%\system32\certutil.exe -urlcache -split -f https://github.com/git-for-windows/git/releases/download/v2.30.1.windows.1/PortableGit-2.30.1-32-bit.7z.exe gitSetup.exe
 )
-curl -L https://github.com/git-for-windows/git/releases/download/v2.30.1.windows.1/PortableGit-2.30.1-32-bit.7z.exe --output gitSetup.exe
+%SystemRoot%\System32\curl -L https://github.com/git-for-windows/git/releases/download/v2.30.1.windows.1/PortableGit-2.30.1-32-bit.7z.exe --output gitSetup.exe
 gitSetup.exe -o ./git -y
 )
 rem call git\post-install.bat
