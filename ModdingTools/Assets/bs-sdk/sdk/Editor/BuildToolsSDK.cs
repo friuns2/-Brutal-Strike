@@ -168,7 +168,7 @@ public partial class BuildToolsSDK : EditorWindow
             var build = new AssetBundleBuild() {assetNames = assetPath, assetBundleName = path};
             
             AssetBundleManifest man = BuildPipeline.BuildAssetBundles(skinsDir, new[] {build}, BuildAssetBundleOptions.ForceRebuildAssetBundle, target);
-            RenameFile(skinsDir + path, skinsDir + path2);
+            //RenameFile(skinsDir + path, skinsDir + path2);
             Debug.Log(man.name);
         }
         CleanupDir(skinsDir);
