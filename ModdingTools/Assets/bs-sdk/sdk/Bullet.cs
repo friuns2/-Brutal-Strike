@@ -228,8 +228,10 @@ public class Bullet : BulletBase,IOnLoadAsset
                     if (Physics.Linecast(h.point, firstHit.Value.point, out hit, Layer.levelMask2))
                     {
                         HoleAndParticles(hit);
-                        var wall = hit.collider.GetComponentNonAlloc<Wall>();
-                        WallScore = ((firstHit.Value.point - hit.point).magnitude + minThikness) * (wall.IsNotNull() ? wall.density : 1);
+                        var hitCollider = hit.collider;
+                        var wall = hitCollider.GetComponentNonAlloc<Wall>();
+
+                        WallScore = ((firstHit.Value.point - hit.point).magnitude + minThikness) * (wall.IsNotNull() ? wall.density : hitCollider is MeshCollider m && m.convex ? 100 : 1);
                         // Debug.Log("WallScore:" + Math.Round(WallScore, 2));
                         // Debug.DrawLine(firstHit.Value.point, h2.point, Color.red, 10);
                     }
@@ -286,9 +288,14 @@ public class Bullet : BulletBase,IOnLoadAsset
                         RaycastHit h1 = hits.Pop();
                         RaycastHit h2 = hit;
 
-                        var wall = h1.collider.GetComponentNonAlloc<Wall>();
+                        var h1Collider = h1.collider;
+                        var wall = h1Collider.GetComponentNonAlloc<Wall>();
+                            
                         float wallSize = ((h1.point - h2.point).magnitude+minThikness) * (wall.IsNotNull() ? wall.density : 1) * Random.Range(.3f, 3);
-
+                        
+                        if (h1Collider is MeshCollider m && m.convex)
+                            wallSize += 100;
+                        
                         var wepBulletPass = wep.bulletPass * gameSettings.bulletPassFactor;
 
                         if (!firstPass)

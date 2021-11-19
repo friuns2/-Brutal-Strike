@@ -78,6 +78,7 @@ public class GunBase : bsNetwork, IOnLoadAsset, IOnLevelEditorGUI,IDontDisable, 
     public float scopeFov = 1;
     public ObscuredInt dropAmmount = 1;
     public ObscuredFloat m_aimSpeed = 16.5f;
+    public float gravityFactor=1;
         
     
     //public Slot slot = new Slot();

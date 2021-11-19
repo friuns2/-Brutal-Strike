@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 024cceb3462ce1e419ee63312c9fd62a
+timeCreated: 1442762414
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Wheel1
+    100004: Wheel1 1
+    100006: Wheel1 2
+    100008: Wheel1 3
+    100010: Wheel2
+    100012: Wheel2 1
+    100014: Wheel2 2
+    100016: Wheel2 3
+    100018: Wheel3
+    100020: Wheel3 1
+    100022: Wheel3 2
+    100024: Wheel3 3
+    100026: Wheel4
+    100028: Wheel4 1
+    100030: Wheel4 2
+    100032: Wheel4 3
+    100034: Wheel5
+    100036: Wheel5 1
+    100038: Wheel5 2
+    100040: Wheel5 3
+    400000: //RootNode
+    400002: Wheel1
+    400004: Wheel1 1
+    400006: Wheel1 2
+    400008: Wheel1 3
+    400010: Wheel2
+    400012: Wheel2 1
+    400014: Wheel2 2
+    400016: Wheel2 3
+    400018: Wheel3
+    400020: Wheel3 1
+    400022: Wheel3 2
+    400024: Wheel3 3
+    400026: Wheel4
+    400028: Wheel4 1
+    400030: Wheel4 2
+    400032: Wheel4 3
+    400034: Wheel5
+    400036: Wheel5 1
+    400038: Wheel5 2
+    400040: Wheel5 3
+    2300000: Wheel1
+    2300002: Wheel1 1
+    2300004: Wheel1 2
+    2300006: Wheel1 3
+    2300008: Wheel2
+    2300010: Wheel2 1
+    2300012: Wheel2 2
+    2300014: Wheel2 3
+    2300016: Wheel3
+    2300018: Wheel3 1
+    2300020: Wheel3 2
+    2300022: Wheel3 3
+    2300024: Wheel4
+    2300026: Wheel4 1
+    2300028: Wheel4 2
+    2300030: Wheel4 3
+    2300032: Wheel5
+    2300034: Wheel5 1
+    2300036: Wheel5 2
+    2300038: Wheel5 3
+    3300000: Wheel1
+    3300002: Wheel1 1
+    3300004: Wheel1 2
+    3300006: Wheel1 3
+    3300008: Wheel2
+    3300010: Wheel2 1
+    3300012: Wheel2 2
+    3300014: Wheel2 3
+    3300016: Wheel3
+    3300018: Wheel3 1
+    3300020: Wheel3 2
+    3300022: Wheel3 3
+    3300024: Wheel4
+    3300026: Wheel4 1
+    3300028: Wheel4 2
+    3300030: Wheel4 3
+    3300032: Wheel5
+    3300034: Wheel5 1
+    3300036: Wheel5 2
+    3300038: Wheel5 3
+    4300000: Wheel1
+    4300002: Wheel2
+    4300004: Wheel3
+    4300006: Wheel4
+    4300008: Wheel5
+    4300010: Wheel5
+    4300012: Wheel4
+    4300014: Wheel3
+    4300016: Wheel2
+    4300018: Wheel1
+    4300020: Wheel5
+    4300022: Wheel5
+    4300024: Wheel4
+    4300026: Wheel4
+    4300028: Wheel3
+    4300030: Wheel3
+    4300032: Wheel2
+    4300034: Wheel2
+    4300036: Wheel1
+    4300038: Wheel1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

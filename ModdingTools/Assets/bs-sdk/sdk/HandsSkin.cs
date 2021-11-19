@@ -67,7 +67,6 @@ public class HandsSkin : bs, ISkinBase, IPosRot, IOnLoadAsset
     public override Renderer[] renderers { get { return m_renderers ?? (m_renderers = GetComponentsInChildren<Renderer>(true).Where(a => a is MeshRenderer || a is SkinnedMeshRenderer).ToArray()); } }
 
     public new Animator animator { get { return base.animator; } }
-    internal bool hasLight;
     public override void Awake()
     {
         base.Awake();
@@ -79,7 +78,7 @@ public class HandsSkin : bs, ISkinBase, IPosRot, IOnLoadAsset
             a.gameObject.layer = Layer.hands;
         tc = gameObject.Component<TransformCache>();
         if (flashLight)
-            hasLight = true;
+            _Game.hasLight = true;
         if (animator)
             animator.cullingMode = AnimatorCullingMode.AlwaysAnimate;
 

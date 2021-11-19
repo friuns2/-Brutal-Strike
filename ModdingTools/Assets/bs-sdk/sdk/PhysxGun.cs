@@ -61,8 +61,8 @@ public class PhysxGun : GunBase
         }
 
 
-        var mouseButton = pl.InputGetKey(KeyCode.Mouse0) && TimeCached.time - shootTime > 1.5f;
-        var mouseUp = oldMouseButton && !mouseButton;
+        var mouseButton = pl.InputGetKey(KeyCode.Mouse0) ;
+        var mouseUp = oldMouseButton && !mouseButton ;
         var mouseDown = !oldMouseButton && mouseButton;
         oldMouseButton = mouseButton;
 
@@ -75,27 +75,34 @@ public class PhysxGun : GunBase
 
         if (mouseDown)
         {
-            pl.weaponAudioSource.loop = true;
-            pl.weaponAudioSource.clip = gravityGun;
-            pl.weaponAudioSource.Play();
-            PlayAnimation(Anims.pressButton, .1f);
+            shootTime = TimeCached.time;
+            
+            PlayAnimation(Anims.startShoot, .1f);
             pl.PlayOneShot(start);
             if (pl.observing)
+            {
                 handsAnimation.Play("Start");
+                pl.weaponAudioSource.loop = true;
+                pl.weaponAudioSource.clip = gravityGun;
+                pl.weaponAudioSource.Play();
+            }
         }
         if (mouseUp)
         {
-            pl.PlayOneShot(shoot);    
             pl.weaponAudioSource.Stop();
             pl.weaponAudioSource.pitch = 1;
             
             PlayAnimation(Anims.shoot2, .1f);
-            if (pl.observing)
+            if (TimeCached.time - shootTime > 1)
             {
-                handsAnimation.Play();
-                pl.HitTime = TimeCached.time;
-                _ObsCamera.PlayDamageAnim();
-                
+                pl.PlayOneShot(shoot);
+                if (pl.observing)
+                {
+                    handsAnimation.Play();
+                    pl.HitTime = TimeCached.time;
+                    _ObsCamera.PlayDamageAnim();
+
+                }
             }
         }
         if (mouseButton||mouseUp)
@@ -115,23 +122,23 @@ public class PhysxGun : GunBase
             }
             
             int cnt = 1;
-            foreach (var a in GetInstances<PlayerSkin>())
-            {
-                if (a.isRagdoll)
-                {
-                    foreach (var r in a.rigidbodies)
-                    {
-                        var v = (pl.hpos + pl.Cam.forward * ( Mathf.Sqrt(lastCnt))) - r.position;
-                        var sqrMagnitude = v.sqrMagnitude;
-                        // var magnitude = Mathf.Sqrt(sqrMagnitude);        
-                        r.AddForce(v.normalized * (Mathf.Max(200 - (sqrMagnitude * sqrMagnitude) * .1f, 50) * TimeCached.deltaTime * 10));
-                    }
-                }
-            }
+            // foreach (var a in GetInstances<PlayerSkin>())
+            // {
+            //     if (a.isRagdoll)
+            //     {
+            //         foreach (var r in a.rigidbodies)
+            //         {
+            //             var v = pl.hpos + pl.Cam.forward * Mathf.Sqrt(lastCnt) - r.position; //ragdpöö
+            //             var sqrMagnitude = v.sqrMagnitude;
+            //             // var magnitude = Mathf.Sqrt(sqrMagnitude);        
+            //             r.AddForce(v.normalized * (Mathf.Max(200 - (sqrMagnitude * sqrMagnitude) * .1f, 50) * TimeCached.deltaTime * 10));
+            //         }
+            //     }
+            // }
             foreach (PhysxGunObj o in cubes)
             {
                 Rigidbody r = o.rg;
-                var v = (pl.hpos + pl.Cam.forward * Mathf.Max(2, Mathf.Sqrt(lastCnt) )) - r.position;
+                var v = pl.hpos + pl.Cam.forward * Mathf.Max(5, Mathf.Sqrt(lastCnt) ) - r.position;
                 var sqrMagnitude = v.sqrMagnitude;
                 var magnitude = Mathf.Sqrt(sqrMagnitude);
 
@@ -146,14 +153,13 @@ public class PhysxGun : GunBase
 
                 if (mouseUp)
                 {
-                    shootTime = TimeCached.time;
                     if (magnitude < 3)
                     {
                         o.gun = this;
                         o.enabled = true;
                         r.detectCollisions = true;
                         o.lastAttack = Time.time;
-                        r.AddForce(pl.Cam.forward * shootForce, ForceMode.Impulse);
+                        r.AddForce(pl.Cam.forward * shootForce*Mathf.Min(1,TimeCached.time - shootTime), ForceMode.Impulse);
                         
                     }
                 }
@@ -170,7 +176,6 @@ public class PhysxGun : GunBase
         
         
     }
-    private float shootTime;
     private int lastCnt;
 #endif
 }

@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 20be432c984e42c4183f9b7fa2a6a868
+timeCreated: 1442762420
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Barrels1
+    100002: Barrels10
+    100004: Barrels10 1
+    100006: Barrels11
+    100008: Barrels11 1
+    100010: Barrels11 2
+    100012: Barrels13
+    100014: Barrels13 1
+    100016: Barrels14
+    100018: Barrels15
+    100020: Barrels16
+    100022: Barrels16 1
+    100024: Barrels17
+    100026: Barrels18
+    100028: Barrels2
+    100030: Barrels3
+    100032: Barrels4
+    100034: Barrels5
+    100036: Barrels9
+    100038: Barrels9 1
+    100040: //RootNode
+    400000: Barrels1
+    400002: Barrels10
+    400004: Barrels10 1
+    400006: Barrels11
+    400008: Barrels11 1
+    400010: Barrels11 2
+    400012: Barrels13
+    400014: Barrels13 1
+    400016: Barrels14
+    400018: Barrels15
+    400020: Barrels16
+    400022: Barrels16 1
+    400024: Barrels17
+    400026: Barrels18
+    400028: Barrels2
+    400030: Barrels3
+    400032: Barrels4
+    400034: Barrels5
+    400036: Barrels9
+    400038: Barrels9 1
+    400040: //RootNode
+    2300000: Barrels1
+    2300002: Barrels10
+    2300004: Barrels10 1
+    2300006: Barrels11
+    2300008: Barrels11 1
+    2300010: Barrels11 2
+    2300012: Barrels13
+    2300014: Barrels13 1
+    2300016: Barrels14
+    2300018: Barrels15
+    2300020: Barrels16
+    2300022: Barrels16 1
+    2300024: Barrels17
+    2300026: Barrels18
+    2300028: Barrels2
+    2300030: Barrels3
+    2300032: Barrels4
+    2300034: Barrels5
+    2300036: Barrels9
+    2300038: Barrels9 1
+    3300000: Barrels1
+    3300002: Barrels10
+    3300004: Barrels10 1
+    3300006: Barrels11
+    3300008: Barrels11 1
+    3300010: Barrels11 2
+    3300012: Barrels13
+    3300014: Barrels13 1
+    3300016: Barrels14
+    3300018: Barrels15
+    3300020: Barrels16
+    3300022: Barrels16 1
+    3300024: Barrels17
+    3300026: Barrels18
+    3300028: Barrels2
+    3300030: Barrels3
+    3300032: Barrels4
+    3300034: Barrels5
+    3300036: Barrels9
+    3300038: Barrels9 1
+    4300000: Barrels1
+    4300002: Barrels2
+    4300004: Barrels3
+    4300006: Barrels4
+    4300008: Barrels5
+    4300010: Barrels9
+    4300012: Barrels10
+    4300014: Barrels11
+    4300016: Barrels13
+    4300018: Barrels14
+    4300020: Barrels15
+    4300022: Barrels16
+    4300024: Barrels17
+    4300026: Barrels18
+    4300028: Barrels10
+    4300030: Barrels9
+    4300032: Barrels11
+    4300034: Barrels11
+    4300036: Barrels13
+    4300038: Barrels16
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

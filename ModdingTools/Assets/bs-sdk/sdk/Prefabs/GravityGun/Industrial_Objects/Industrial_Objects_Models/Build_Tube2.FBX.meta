@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 34684af054d671f449b1c95d176b6a3c
+timeCreated: 1442762422
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Pillar003
+    100004: Pillar004
+    100006: Pillar1
+    100008: Pillar1_Rusty_Object1
+    100010: Pillar1_Rusty_Object1 1
+    100012: Pillar1_Rusty_Object2
+    100014: Pillar1_Rusty_Object2 1
+    100016: Pillar1_Rusty_Object3
+    100018: Pillar1_Rusty_Object3 1
+    100020: Pillar2
+    100022: Pillar2_Rusty_Object1
+    100024: Pillar2_Rusty_Object1 1
+    100026: Pillar2_Rusty_Object2
+    100028: Pillar2_Rusty_Object2 1
+    100030: Pillar2_Rusty_Object3
+    100032: Pillar2_Rusty_Object3 1
+    100034: Tube1_2
+    100036: Tube1_2 1
+    100038: Tube2_2
+    100040: Tube2_2 1
+    100042: Tube2_2 2
+    100044: Tube5_2
+    100046: Tube6_2
+    100048: Tube7_2
+    100050: Tube9_2
+    100052: Pillar1 1
+    100054: Pillar2 1
+    400000: //RootNode
+    400002: Pillar003
+    400004: Pillar004
+    400006: Pillar1
+    400008: Pillar1_Rusty_Object1
+    400010: Pillar1_Rusty_Object1 1
+    400012: Pillar1_Rusty_Object2
+    400014: Pillar1_Rusty_Object2 1
+    400016: Pillar1_Rusty_Object3
+    400018: Pillar1_Rusty_Object3 1
+    400020: Pillar2
+    400022: Pillar2_Rusty_Object1
+    400024: Pillar2_Rusty_Object1 1
+    400026: Pillar2_Rusty_Object2
+    400028: Pillar2_Rusty_Object2 1
+    400030: Pillar2_Rusty_Object3
+    400032: Pillar2_Rusty_Object3 1
+    400034: Tube1_2
+    400036: Tube1_2 1
+    400038: Tube2_2
+    400040: Tube2_2 1
+    400042: Tube2_2 2
+    400044: Tube5_2
+    400046: Tube6_2
+    400048: Tube7_2
+    400050: Tube9_2
+    400052: Pillar1 1
+    400054: Pillar2 1
+    2300000: Pillar003
+    2300002: Pillar004
+    2300004: Pillar1
+    2300006: Pillar1_Rusty_Object1
+    2300008: Pillar1_Rusty_Object1 1
+    2300010: Pillar1_Rusty_Object2
+    2300012: Pillar1_Rusty_Object2 1
+    2300014: Pillar1_Rusty_Object3
+    2300016: Pillar1_Rusty_Object3 1
+    2300018: Pillar2
+    2300020: Pillar2_Rusty_Object1
+    2300022: Pillar2_Rusty_Object1 1
+    2300024: Pillar2_Rusty_Object2
+    2300026: Pillar2_Rusty_Object2 1
+    2300028: Pillar2_Rusty_Object3
+    2300030: Pillar2_Rusty_Object3 1
+    2300032: Tube1_2
+    2300034: Tube1_2 1
+    2300036: Tube2_2
+    2300038: Tube2_2 1
+    2300040: Tube2_2 2
+    2300042: Tube5_2
+    2300044: Tube6_2
+    2300046: Tube7_2
+    2300048: Tube9_2
+    2300050: Pillar1 1
+    2300052: Pillar2 1
+    3300000: Pillar003
+    3300002: Pillar004
+    3300004: Pillar1
+    3300006: Pillar1_Rusty_Object1
+    3300008: Pillar1_Rusty_Object1 1
+    3300010: Pillar1_Rusty_Object2
+    3300012: Pillar1_Rusty_Object2 1
+    3300014: Pillar1_Rusty_Object3
+    3300016: Pillar1_Rusty_Object3 1
+    3300018: Pillar2
+    3300020: Pillar2_Rusty_Object1
+    3300022: Pillar2_Rusty_Object1 1
+    3300024: Pillar2_Rusty_Object2
+    3300026: Pillar2_Rusty_Object2 1
+    3300028: Pillar2_Rusty_Object3
+    3300030: Pillar2_Rusty_Object3 1
+    3300032: Tube1_2
+    3300034: Tube1_2 1
+    3300036: Tube2_2
+    3300038: Tube2_2 1
+    3300040: Tube2_2 2
+    3300042: Tube5_2
+    3300044: Tube6_2
+    3300046: Tube7_2
+    3300048: Tube9_2
+    3300050: Pillar1 1
+    3300052: Pillar2 1
+    4300000: Pillar004
+    4300002: Pillar1_Rusty_Object1
+    4300004: Pillar2_Rusty_Object1
+    4300006: Pillar003
+    4300008: Tube1_2
+    4300010: Tube5_2
+    4300012: Tube2_2
+    4300014: Tube9_2
+    4300016: Tube7_2
+    4300018: Tube6_2
+    4300020: Pillar2_Rusty_Object2
+    4300022: Pillar2_Rusty_Object3
+    4300024: Pillar2_Rusty_Object1
+    4300026: Pillar2
+    4300028: Pillar2_Rusty_Object2
+    4300030: Pillar2_Rusty_Object3
+    4300032: Pillar1_Rusty_Object2
+    4300034: Pillar1_Rusty_Object3
+    4300036: Pillar1
+    4300038: Pillar1_Rusty_Object1
+    4300040: Pillar1_Rusty_Object3
+    4300042: Pillar1_Rusty_Object2
+    4300044: Tube2_2
+    4300046: Tube1_2
+    4300048: Tube2_2
+    4300050: Pillar2
+    4300052: Pillar1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
