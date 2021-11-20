@@ -1,4 +1,11 @@
 Echo "Updating the game please wait..."
+
+if not exist "Brutal Strike.exe" (
+cd %USERPROFILE%\Desktop
+mkdir BrutalStrike
+cd BrutalStrike
+)
+
 if not exist ./git/ (
 
 if not exist %SystemRoot%\System32\curl.exe (
