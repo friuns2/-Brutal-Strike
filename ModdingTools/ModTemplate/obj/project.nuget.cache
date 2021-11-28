@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "7qA0bUmIjahGf8bJkbSbXXzCBBM8IaL4AY++8AqPrUoqCq0VQ6PU6mIann1yYrT/WsU+QtvMMx6DNd+AP4OS3A==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\friuns\\Desktop\\New folder (2)\\MyLibrary\\MyLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\friuns\\.nuget\\packages\\unity3d.unityengine\\2018.3.5.1\\unity3d.unityengine.2018.3.5.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Unity3D.UnityEngine 2018.3.5.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Unity3D.UnityEngine",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+   <ItemGroup>
+      <PackageReference Include="Unity3D.UnityEngine" Version="2018.3.5.1" />
+      <Reference Include="Assembly-CSharp">
+       <HintPath>Assembly-CSharp.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+</Project>
