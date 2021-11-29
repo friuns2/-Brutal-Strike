@@ -23,7 +23,6 @@ git\bin\git.exe init
 git\bin\git.exe stash --keep-index 
 git\bin\git.exe remote add origin https://github.com/friuns/-Brutal-Strike.git
 
-rem ..\git\bin\git.exe pull origin master --progress 
 git\bin\git.exe fetch origin  --progress  
 TIMEOUT /T 1
 git\bin\git.exe checkout -f origin/master  --progress 
@@ -32,7 +31,5 @@ git\bin\git.exe checkout master  --progress
 TIMEOUT /T 1
 git\bin\git.exe merge origin/master  --progress 
 
-rem ..\git\bin\git.exe checkout stash --ours .
-rem start "" "Brutal Strike.exe"
-rem TIMEOUT /T 5
+
 pause

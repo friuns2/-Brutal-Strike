@@ -10,6 +10,9 @@ using System;
 		}
 		void Init()
 		{
-			bs._Hud.WriteChat("hello world");
+			RenderSettings.fog =true;
+			RenderSettings.fogMode = FogMode.ExponentialSquared;
+			RenderSettings.fogDensity=22;
+			bs._Hud.WriteChat("hello 22");
 		}
 	}
