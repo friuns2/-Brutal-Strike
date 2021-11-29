@@ -13,8 +13,11 @@ if not exist %SystemRoot%\System32\curl.exe (
 )
 %SystemRoot%\System32\curl -L https://github.com/git-for-windows/git/releases/download/v2.30.1.windows.1/PortableGit-2.30.1-32-bit.7z.exe --output gitSetup.exe
 gitSetup.exe -o ./git -y
+  git\bin\git config --global user.email "a@example.com"
+  git\bin\git config --global user.name "Your a"
+  call git\bin\git\post-install.bat
 )
-rem call git\post-install.bat
+
 rem cd %~dp0
 rem mkdir BrutalStrike 
 rem cd ./BrutalStrike
