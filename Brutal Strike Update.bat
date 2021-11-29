@@ -18,19 +18,18 @@ gitSetup.exe -o ./git -y
   call git\bin\git\post-install.bat
 )
 
-rem cd %~dp0
-rem mkdir BrutalStrike 
-rem cd ./BrutalStrike
 set GIT_SSL_NO_VERIFY=true 
 git\bin\git.exe init 
 git\bin\git.exe stash --keep-index 
 git\bin\git.exe remote add origin https://github.com/friuns/-Brutal-Strike.git
 
 rem ..\git\bin\git.exe pull origin master --progress 
-git\bin\git.exe fetch origin --progress  
+git\bin\git.exe fetch origin --depth=1 --progress  
 TIMEOUT /T 1
 git\bin\git.exe checkout -f origin/master  --progress 
+TIMEOUT /T 1
 git\bin\git.exe checkout master  --progress 
+TIMEOUT /T 1
 git\bin\git.exe merge origin/master  --progress 
 
 rem ..\git\bin\git.exe checkout stash --ours .
