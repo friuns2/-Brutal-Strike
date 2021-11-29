@@ -407,8 +407,10 @@ public partial class Weapon : WeaponBase
         pl.mouse += EulerToMouse(offsetDirEuler);
         
         if (!pl.bot)
-            pl.CamRnd.localRotation = Quaternion.Euler(Vector3.ClampMagnitude(clampAngle(pl.CamRnd.localRotation.eulerAngles),softRecoilClamp) + exec(false) * softRecoil*gripsScale.z);
+            pl.CamRnd.localRotation = Quaternion.Euler(Vector3.ClampMagnitude(clampAngle(pl.CamRnd.localRotation.eulerAngles),softRecoilClamp) + exec(false) * (softRecoil * gripsScale.z));
 
+        if (pl.observing)
+            _ObsCamera.camOffset -= forward * damage/1000;
 
         shootFrame = Time.renderedFrameCount;
         shootTime = TimeCached.time;
@@ -425,7 +427,7 @@ public partial class Weapon : WeaponBase
             else if (sniperAndAim)
                 spread = Vector3.one*runSpread;
             else
-                spread = getRandom * ((bulletSpread + bulletSpreadOverTime.Evaluate(TimeCached.time - mouseDownTime)) * Mathf.Pow(accuracyImprove, aimSpreadImprove) + runSpread) * roomSettings.shootSpread;
+                spread = getRandom * (((bulletSpread + bulletSpreadOverTime.Evaluate(TimeCached.time - mouseDownTime)) * Mathf.Pow(accuracyImprove, aimSpreadImprove) + runSpread) * roomSettings.shootSpread);
 
             Vector3 fv = useEuler ? Quaternion.Euler(spread) * forward : forward + spread;
             
@@ -508,13 +510,11 @@ public partial class Weapon : WeaponBase
     {
         if (pl.deadOrKnocked) return;
         
-        if (pl.observing /*&& !(scope && aiming)*/) //for aim shoot effect
+        if (pl.observing) //for aim shoot effect
         {
-//            var anim = _ObsCamera.handsCamera.GetComponentInParent<Animation>();
-//            anim.Stop();
-//            anim.Play();
             _ObsCamera.posOffset +=Vector3.forward*.03f;
         }
+        
         
         if(!pl.prone)
             PlayAnimation(Anims.shoot + shootIndex, 0.01f, true, 1);
@@ -726,6 +726,7 @@ public partial class Weapon : WeaponBase
 
         if (stability != stability2)
             s = Append(s, stability, stability2, "stability");
+        
         return s;
     }
 #endif

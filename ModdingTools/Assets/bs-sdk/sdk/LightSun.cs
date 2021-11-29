@@ -99,6 +99,7 @@ public class LightSun : ItemBase //,ItemBaseVarParseEnable
         reflectionsAmbient = FloatField("reflectionsAmbient", reflectionsAmbient);
         fogDensity = FloatField("fog", fogDensity);
         RenderSettings.fog = fogDensity > 0;
+        
         Label("skyboxes");
         foreach (var a in skyboxes)
         {
@@ -109,6 +110,7 @@ public class LightSun : ItemBase //,ItemBaseVarParseEnable
     public override void Awake()
     {
         // enabled = false;
+        RenderSettings.skybox = Instantiate(RenderSettings.skybox);
         base.Awake();
         skyboxes = Resources.FindObjectsOfTypeAll<Material>().Where(a => a.renderQueue <= 1000).ToArray();
     }

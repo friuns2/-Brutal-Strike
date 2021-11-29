@@ -899,7 +899,7 @@ public class GunBase : bsNetwork, IOnLoadAsset, IOnLevelEditorGUI,IDontDisable, 
     }
 #endif
 #if game
-    public object ToStringWithIcon()
+    public string ToStringWithIcon()
     {
         return t + gunName + Player.InsertImage(weaponIcon);
     }
