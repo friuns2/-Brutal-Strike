@@ -34,6 +34,9 @@
     <Reference Include="Assembly-CSharp">
       <HintPath>dlls\Assembly-CSharp.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\unityHalf-life\builds\brutalStrike\ModdingTools\Scripts\dlls\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
@@ -79,8 +82,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="TestScript.cs" />
-    <Compile Include="_Mod.cs" />
+    <Compile Include="_Startup.cs" />
     <Compile Include="NightMod.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Disabled" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

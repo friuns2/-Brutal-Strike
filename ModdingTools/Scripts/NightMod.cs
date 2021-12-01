@@ -2,13 +2,12 @@ using UnityEngine;
 // ReSharper disable ArrangeTypeMemberModifiers
 #pragma warning disable 108,114
 
-class GameMod : Game{
+class NightMod : Game{
     float timeStart;
     LightSun ls;
-    void StartGame(){
+    public override void StartGame(){
         base.StartGame();
         timeStart=Time.time;
-            
     }
     void Init()
     {
@@ -21,8 +20,8 @@ class GameMod : Game{
         bs.roomSettings.enableRun = false;
         
     }
-    void Update()
-    {
+    public override void Update()
+    {    	
         var i = (timeStart - Time.time+5)/5;
         RenderSettings.ambientIntensity = Mathf.Max(.3f,i);
         RenderSettings.reflectionIntensity = Mathf.Max(.3f,i);
