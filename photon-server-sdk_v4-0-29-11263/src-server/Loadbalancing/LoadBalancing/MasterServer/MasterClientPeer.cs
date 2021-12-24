@@ -394,7 +394,7 @@ namespace Photon.LoadBalancing.MasterServer
             {
                 return OperationHandlerBase.HandleInvalidOperation(authenticateRequest, log);
             }
-
+            gameVersion = authenticateRequest.ApplicationVersion;
             if (log.IsDebugEnabled)
             {
                 log.DebugFormat(
@@ -534,7 +534,7 @@ namespace Photon.LoadBalancing.MasterServer
                 this.AppLobby.RemovePeer(this);
                 this.AppLobby = null;
             }
-
+            joinLobbyRequest.LobbyName += gameVersion;
             AppLobby lobby;
             if (!this.Application.LobbyFactory.GetOrCreateAppLobby(joinLobbyRequest.LobbyName, (AppLobbyType)joinLobbyRequest.LobbyType, out lobby))
             {
@@ -561,7 +561,7 @@ namespace Photon.LoadBalancing.MasterServer
 
             return null;
         }
-
+        public string gameVersion;
         public OperationResponse HandleLeaveLobby(OperationRequest operationRequest)
         {
             this.GameChannelSubscription = null;
@@ -615,6 +615,7 @@ namespace Photon.LoadBalancing.MasterServer
 
         private OperationResponse TryGetLobby(string lobbyName, byte lobbyType, byte operationCode, out AppLobby lobby)
         {
+            lobbyName += gameVersion;
             if (string.IsNullOrEmpty(lobbyName) && this.AppLobby != null)
             {
                 lobby = this.AppLobby;
