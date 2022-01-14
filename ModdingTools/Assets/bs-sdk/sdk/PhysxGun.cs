@@ -32,7 +32,8 @@ public class PhysxGun : GunBase
         if(!selected)
             pl.weaponAudioSource.Stop();
     }
-    public override void OnLoadAsset()
+    [ContextMenu("Init PhysGun")]
+    public void InitPhysGun()
     {
 
         foreach (Transform a in cubePrefab.transform.GetTransforms())
@@ -40,26 +41,18 @@ public class PhysxGun : GunBase
             a.transform.localScale = Vector3.one / Mathf.Sqrt(a.GetComponent<Renderer>().bounds.size.magnitude);
             var physxGunObj = a.gameObject.Component<PhysxGunObj>();
             physxGunObj.rg = a.GetComponent<Rigidbody>();
+            a.gameObject.Component<Trigger>().Reset();
             trs.Add(physxGunObj);
         }
-        base.OnLoadAsset();
+        // base.OnLoadAsset();
     }
     public  List<PhysxGunObj> trs = new List<PhysxGunObj>();
     private bool oldMouseButton;
-    public override void Update2()
+    public void Update()
     {
-        base.Update2();
         if (pl.deadOrKnocked) return;
+        if (!active) return;
         
-        
-
-        for (var i = cubes.Count - 1; i >= 0; i--)
-        {
-            var a = cubes[i];
-            if (a.position.y < _Game.bounds.min.y)
-                Destroy(a.gameObject);
-        }
-
 
         var mouseButton = pl.InputGetKey(KeyCode.Mouse0) ;
         var mouseUp = oldMouseButton && !mouseButton ;
@@ -135,41 +128,43 @@ public class PhysxGun : GunBase
             //         }
             //     }
             // }
-            foreach (PhysxGunObj o in cubes)
-            {
-                Rigidbody r = o.rg;
-                var v = pl.hpos + pl.Cam.forward * Mathf.Max(5, Mathf.Sqrt(lastCnt) ) - r.position;
-                var sqrMagnitude = v.sqrMagnitude;
-                var magnitude = Mathf.Sqrt(sqrMagnitude);
 
-                if (TimeCached.time - o.lastAttack<2 || magnitude > 25) continue;
-                o.lastTime = TimeCached.time;
-                if (magnitude < 5)
+            foreach (var a in pl.triggerNearby.triggers)
+                if (a.handler is PhysxGunObj o)
                 {
-                    cnt++;
-                    r.detectCollisions = !(magnitude > 5 && r.velocity.magnitude < 2) ;
-                    o.gun = this;
-                }
+                    Rigidbody r = o.rg;
+                    var v = pl.hpos + pl.Cam.forward * Mathf.Max(5, Mathf.Sqrt(lastCnt)) - r.position;
+                    var sqrMagnitude = v.sqrMagnitude;
+                    var magnitude = Mathf.Sqrt(sqrMagnitude);
 
-                if (mouseUp)
-                {
-                    if (magnitude < 3)
+                    if (TimeCached.time - o.lastAttack < 2 || magnitude > 25) continue;
+                    o.lastTime = TimeCached.time;
+                    if (magnitude < 5)
                     {
+                        cnt++;
+                        r.detectCollisions = !(magnitude > 5 && r.velocity.magnitude < 2);
                         o.gun = this;
-                        o.enabled = true;
-                        r.detectCollisions = true;
-                        o.lastAttack = Time.time;
-                        r.AddForce(pl.Cam.forward * shootForce*Mathf.Min(1,TimeCached.time - shootTime), ForceMode.Impulse);
-                        
                     }
+
+                    if (mouseUp)
+                    {
+                        if (magnitude < 3)
+                        {
+                            o.gun = this;
+                            o.enabled = true;
+                            r.detectCollisions = true;
+                            o.lastAttack = Time.time;
+                            r.AddForce(pl.Cam.forward * shootForce * Mathf.Min(1, TimeCached.time - shootTime), ForceMode.Impulse);
+                        }
+                    }
+                    else
+                    {
+                        r.velocity = Vector3.ClampMagnitude(r.velocity, 1 + magnitude + sqrMagnitude * 5);
+                        r.AddForce(v.normalized * (Mathf.Max(200 - (sqrMagnitude * sqrMagnitude) * .1f, 50) * Time.deltaTime * 50));
+                    }
+                    // a.AddExplosionForce(explosionForce, transform.forward*10, radius);
                 }
-                else
-                {
-                    r.velocity = Vector3.ClampMagnitude(r.velocity, 1 + magnitude + sqrMagnitude * 5);
-                    r.AddForce(v.normalized * (Mathf.Max(200 - (sqrMagnitude * sqrMagnitude) * .1f, 50) * Time.deltaTime * 50));
-                }
-                // a.AddExplosionForce(explosionForce, transform.forward*10, radius);
-            }
+            
             lastCnt = cnt;
         }
         

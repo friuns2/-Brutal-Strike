@@ -279,7 +279,6 @@ namespace Photon.StarDust.Client
                 Counters.FlushOperationsSent.GetNextValue();
             }
         }
-
         /// <summary>
         /// The start game.
         /// </summary>
@@ -305,7 +304,7 @@ namespace Photon.StarDust.Client
                 Thread.Sleep(sleep);
             }
 
-            log.InfoFormat("[{2}] Started game {1} with {0} clients", Settings.NumClientsPerGame, gameName, Process.GetCurrentProcess().Id);
+            log.InfoFormat(gameCounter + " [{2}] Started game {1} with {0} clients", Settings.NumClientsPerGame, gameName, Process.GetCurrentProcess().Id);
 
             if (Settings.TimeInGame > 0)
             {

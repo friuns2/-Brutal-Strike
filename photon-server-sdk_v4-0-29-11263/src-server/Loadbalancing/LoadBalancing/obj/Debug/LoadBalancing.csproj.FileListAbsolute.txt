@@ -86,6 +86,6 @@ C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\LoadBalancing\bin\PhotonHive.xml
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\LoadBalancing\bin\PhotonHive.dll.config
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\LoadBalancing\bin\Photon.SocketServer.dll.config
-C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\LoadBalancing\obj\Debug\LoadBalancing.csprojAssemblyReference.cache
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\LoadBalancing\obj\Debug\LoadBalancing.csproj.CoreCompileInputs.cache
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\LoadBalancing\obj\Debug\LoadBalancing.csproj.CopyComplete
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\LoadBalancing\obj\Debug\LoadBalancing.csproj.AssemblyReference.cache

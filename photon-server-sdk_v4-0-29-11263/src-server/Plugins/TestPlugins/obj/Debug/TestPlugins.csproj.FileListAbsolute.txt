@@ -24,6 +24,10 @@ C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\TestPlugins\bin\Photon.Common.pdb
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\TestPlugins\bin\ExitGames.Logging.Log4Net.pdb
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\TestPlugins\bin\ExitGames.Logging.Log4Net.xml
-C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\TestPlugins\obj\Debug\TestPlugins.csprojResolveAssemblyReference.cache
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\TestPlugins\obj\Debug\TestPlugins.dll
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\TestPlugins\obj\Debug\TestPlugins.pdb
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\TestPlugins\bin\PhotonHive.dll.config
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\TestPlugins\bin\Photon.SocketServer.dll.config
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\TestPlugins\obj\Debug\TestPlugins.csproj.AssemblyReference.cache
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\TestPlugins\obj\Debug\TestPlugins.csproj.CoreCompileInputs.cache
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\TestPlugins\obj\Debug\TestPlugins.csproj.CopyComplete

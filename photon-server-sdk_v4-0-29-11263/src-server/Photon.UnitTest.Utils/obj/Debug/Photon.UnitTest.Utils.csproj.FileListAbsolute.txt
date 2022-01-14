@@ -14,3 +14,7 @@ C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\bin\Debug\Photon3DotNet.xml
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\obj\Debug\Photon.UnitTest.Utils.dll
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\obj\Debug\Photon.UnitTest.Utils.pdb
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\bin\Debug\Photon.SocketServer.dll.config
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\obj\Debug\Photon.UnitTest.Utils.csproj.AssemblyReference.cache
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\obj\Debug\Photon.UnitTest.Utils.csproj.CoreCompileInputs.cache
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.UnitTest.Utils\obj\Debug\Photon.UnitTest.Utils.csproj.CopyComplete

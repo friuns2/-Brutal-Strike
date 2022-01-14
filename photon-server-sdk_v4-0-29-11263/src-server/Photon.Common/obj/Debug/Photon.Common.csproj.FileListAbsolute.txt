@@ -34,3 +34,7 @@ C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.Common\bin\Debug\Photon.SocketServer.xml
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.Common\obj\Debug\Photon.Common.dll
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.Common\obj\Debug\Photon.Common.pdb
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.Common\bin\Debug\Photon.SocketServer.dll.config
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.Common\obj\Debug\Photon.Common.csproj.AssemblyReference.cache
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.Common\obj\Debug\Photon.Common.csproj.CoreCompileInputs.cache
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Photon.Common\obj\Debug\Photon.Common.csproj.CopyComplete

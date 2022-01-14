@@ -127,6 +127,7 @@
      <Compile Include="Assets\bs-sdk\sdk\DisableOnAndroid.cs" />
      <Compile Include="Assets\bs-sdk\sdk\DisableOnQuality.cs" />
      <Compile Include="Assets\bs-sdk\sdk\Door.cs" />
+     <Compile Include="Assets\bs-sdk\sdk\EasyIK.cs" />
      <Compile Include="Assets\bs-sdk\sdk\EventMachineBehaviour.cs" />
      <Compile Include="Assets\bs-sdk\sdk\FlashGrenadeBullet.cs" />
      <Compile Include="Assets\bs-sdk\sdk\ForwardEvents.cs" />
@@ -139,6 +140,9 @@
      <Compile Include="Assets\bs-sdk\sdk\GunSkin.cs" />
      <Compile Include="Assets\bs-sdk\sdk\HandsSkin.cs" />
      <Compile Include="Assets\bs-sdk\sdk\Hostage.cs" />
+     <Compile Include="Assets\bs-sdk\sdk\IKCCD.cs" />
+     <Compile Include="Assets\bs-sdk\sdk\IkHands.cs" />
+     <Compile Include="Assets\bs-sdk\sdk\IkHelper.cs" />
      <Compile Include="Assets\bs-sdk\sdk\ItemBase.cs" />
      <Compile Include="Assets\bs-sdk\sdk\Knife.cs" />
      <Compile Include="Assets\bs-sdk\sdk\Ladder.cs" />
@@ -209,6 +213,7 @@
      <Compile Include="Assets\gui2\Smoke &amp; Ember FX\Demo\Scripts\SmokeEmbersSceneSelect.cs" />
      <Compile Include="Assets\scripts\Main\ForwardEventsCollisionHit.cs" />
      <Compile Include="Assets\scripts\Main\Platform.cs" />
+     <Compile Include="Assets\scripts\ScriptExecutor.cs" />
      <Compile Include="Assets\scripts\Weps\DisableOnAwake.cs" />
      <Compile Include="Assets\scripts\Weps\Gib.cs" />
      <Compile Include="Assets\scripts\Weps\WallConstruction.cs" />

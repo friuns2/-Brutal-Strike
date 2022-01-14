@@ -70,23 +70,22 @@ public class Bullet : BulletBase,IOnLoadAsset
         }
         else
             st = pos;
-        
-        
-        foreach (Transform t in offsetTransform)
-        {
 
-            if (plObserving && _ObsCamera.fpsCam)
+        if (!oculus)
+            foreach (Transform t in offsetTransform)
             {
-                t.position = st + range * .5f;
-                // var c = GameObject.CreatePrimitive(PrimitiveType.Cube);
-                // c.transform.localScale *= 0.1f;
-                // c.transform.position = t.position;
-                
-                // t.localEulerAngles = new Vector3(3, 0, 0);
+                if (plObserving && _ObsCamera.fpsCam)
+                {
+                    t.position = st + range * .5f;
+                    // var c = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                    // c.transform.localScale *= 0.1f;
+                    // c.transform.position = t.position;
+
+                    // t.localEulerAngles = new Vector3(3, 0, 0);
+                }
+                else
+                    t.position = wep.pl.curGun.gunSkin.pos + velocity * Random.Range(0, 1f / 30);
             }
-            else
-                t.position = wep.pl.curGun.gunSkin.pos + velocity * Random.Range(0, 1f / 30);
-        }
         
         if (!userSettings.disableBloodAndParticles && qualityLevelAndroid > QualityLevel.Medium)
             foreach(var a in bulletTrails)

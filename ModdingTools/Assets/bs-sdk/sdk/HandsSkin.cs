@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.Rendering;
 #if UNITY_EDITOR
@@ -22,8 +23,11 @@ public class HandsSkin : bs, ISkinBase, IPosRot, IOnLoadAsset
     public Light flashLight;
     public Transform MuzzleFlash; //old
     public Transform[] MuzzleFlash2 = new Transform[0];
+    public Transform[] vrHandsTr = new Transform[0];
+    public Vector3[] vrHands = new Vector3[2];
+    public Transform vrForward;
+    // public bool leftController;
     public Transform crosshair;
-    public float handsFov = 60;
     // public Renderer handsRenderer;
     // public Transform crosshair2;
     public Transform[] attachments = new Transform[0];
@@ -36,6 +40,7 @@ public class HandsSkin : bs, ISkinBase, IPosRot, IOnLoadAsset
     public void TPose()
     {
         var animator = GetComponentInChildren<Animator>();
+        
     }
     [ContextMenu("AutoFillAnimations")]
     public void AutoFillAnimations()
@@ -70,8 +75,10 @@ public class HandsSkin : bs, ISkinBase, IPosRot, IOnLoadAsset
     public override void Awake()
     {
         base.Awake();
+        if (!crosshair)
+            crosshair = tr;
 
-
+        
         // if (handsRenderer == null)
         // handsRenderer = renderers.FirstOrDefault(a => a.sharedMaterial?.name == "v_hands");
         foreach (var a in GetComponentsInChildren<Transform>())
@@ -97,6 +104,50 @@ public class HandsSkin : bs, ISkinBase, IPosRot, IOnLoadAsset
 
         if (MuzzleFlash2 == null || MuzzleFlash2.Length == 0)
             MuzzleFlash2 = new Transform[] {MuzzleFlash};
+        
+        if (oculus)
+        {
+            if (!vrForward)
+                vrForward = transform;
+            // transform.localScale *= 1.5f;
+            foreach (var a in GetComponentsInChildren<ParticleOffsetter>())
+                a.enabled = false;
+            if (vrHands[0]==Vector3.zero)
+            {
+                InitVrHands();
+            }
+        }
+        
+    }
+     
+    [ContextMenu("InitVrHands")]
+    private void InitVrHands()
+    {
+        if(vrHandsTr.Length>0)
+            for (int i = 0; i < 2; i++)
+                vrHands[i] = vrHandsTr[i].position - tr.position;
+        else
+        {
+            try
+            {
+                (animator.runtimeAnimatorController as AnimatorOverrideController)["idle"].SampleAnimation(animator.gameObject, 0);
+            }
+            catch (Exception e)
+            {
+                Debug.LogException(e);
+            }
+            try
+            {
+                vrHands[1] = GetComponentsInChildren<Transform>().FirstOrDefault(a => Regex.Match(a.GetName(),"(left|l).hand",RegexOptions.IgnoreCase).Success).position - tr.position;
+                vrHands[0] = GetComponentsInChildren<Transform>().FirstOrDefault(a => Regex.Match(a.GetName(),"(right|r).hand",RegexOptions.IgnoreCase).Success).position - tr.position;
+            }
+            catch (Exception e)
+            {
+                Debug.LogException(e);
+            }
+            // vrHands[0] = GetComponentsInChildren<Transform>().FirstOrDefault(a => a.GetName().ContainsFastIc("left") && a.GetName().ContainsFastIc("hand")).position - tr.position;
+            // vrHands[1] = GetComponentsInChildren<Transform>().FirstOrDefault(a => a.GetName().ContainsFastIc("right") && a.GetName().ContainsFastIc("hand")).position - tr.position;
+        }
     }
 
     public void Fade(string stateName, float normalizedTransitionDuration, bool playFromBegining = false, int layer = -1)

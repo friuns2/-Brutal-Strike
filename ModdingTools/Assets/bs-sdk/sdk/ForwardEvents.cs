@@ -70,6 +70,12 @@ public class ForwardEvents : MonoBehaviour
     //     foreach (var a in IOnAnimatorIK)
     //         a.OnAnimatorIK(layer);
     // }
+    public void OnPreRender()
+    {
+        if (!enabled) return;
+        foreach (var a in IOnPostRender)
+            a.OnPreRender();
+    }
     public void OnPostRender()
     {
         if (!enabled) return;

@@ -1434,3 +1434,605 @@
 2021-03-06 10:27:30,708 [10] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:1573 established (id=2)
 2021-03-06 10:27:30,742 [15] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
 2021-03-06 10:27:30,742 [15] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-23 20:05:33,612 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-23 20:05:33,620 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-23 20:05:33,620 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-23 20:05:33,620 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-23 20:05:33,627 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-23 20:05:33,644 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-23 20:05:33,647 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-23 20:05:33,647 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-23 20:05:33,647 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-23 20:05:33,647 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-23 20:05:33,647 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-23 20:05:33,647 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-23 20:05:33,647 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-23 20:05:33,647 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-23 20:05:33,647 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-23 20:05:33,647 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-23 20:05:33,648 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-23 20:05:33,660 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-23 20:05:33,682 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-23 20:05:33,682 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-23 20:05:33,682 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-23 20:05:33,682 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-23 20:05:33,682 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-23 20:05:33,693 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-23 20:05:33,700 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:8677 established (id=2)
+2021-12-23 20:05:33,725 [15] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-23 20:05:33,726 [15] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-23 20:10:01,300 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-23 20:10:01,308 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-23 20:10:01,308 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-23 20:10:01,308 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-23 20:10:01,314 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-23 20:10:01,326 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-23 20:10:01,328 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-23 20:10:01,329 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-23 20:10:01,329 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-23 20:10:01,329 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-23 20:10:01,329 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-23 20:10:01,329 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-23 20:10:01,329 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-23 20:10:01,329 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-23 20:10:01,329 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-23 20:10:01,329 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-23 20:10:01,329 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-23 20:10:01,338 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-23 20:10:01,359 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-23 20:10:01,359 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-23 20:10:01,359 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-23 20:10:01,360 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-23 20:10:01,360 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-23 20:10:01,369 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-23 20:10:01,378 [11] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:9249 established (id=2)
+2021-12-23 20:10:01,403 [16] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-23 20:10:01,403 [16] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-23 20:53:02,958 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-23 20:53:02,966 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-23 20:53:02,966 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-23 20:53:02,967 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-23 20:53:02,972 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-23 20:53:02,986 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-23 20:53:02,992 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-23 20:53:02,992 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-23 20:53:02,992 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-23 20:53:02,992 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-23 20:53:02,992 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-23 20:53:02,992 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-23 20:53:02,992 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-23 20:53:02,992 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-23 20:53:02,992 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-23 20:53:02,992 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-23 20:53:02,992 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-23 20:53:03,004 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-23 20:53:03,029 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-23 20:53:03,029 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-23 20:53:03,029 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-23 20:53:03,029 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-23 20:53:03,029 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-23 20:53:03,039 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-23 20:53:03,050 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:4371 established (id=2)
+2021-12-23 20:53:03,077 [12] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-23 20:53:03,078 [12] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-23 20:58:36,501 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-23 20:58:36,509 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-23 20:58:36,509 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-23 20:58:36,509 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-23 20:58:36,514 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-23 20:58:36,527 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-23 20:58:36,530 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-23 20:58:36,530 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-23 20:58:36,530 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-23 20:58:36,530 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-23 20:58:36,531 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-23 20:58:36,531 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-23 20:58:36,531 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-23 20:58:36,531 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-23 20:58:36,531 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-23 20:58:36,531 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-23 20:58:36,531 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-23 20:58:36,541 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-23 20:58:36,570 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-23 20:58:36,570 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-23 20:58:36,570 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-23 20:58:36,570 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-23 20:58:36,571 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-23 20:58:36,580 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-23 20:58:36,589 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:4773 established (id=2)
+2021-12-23 20:58:36,612 [13] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-23 20:58:36,613 [13] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-23 21:45:35,471 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-23 21:45:35,479 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-23 21:45:35,480 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-23 21:45:35,480 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-23 21:45:35,486 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-23 21:45:35,509 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-23 21:45:35,513 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-23 21:45:35,513 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-23 21:45:35,513 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-23 21:45:35,513 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-23 21:45:35,513 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-23 21:45:35,513 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-23 21:45:35,513 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-23 21:45:35,513 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-23 21:45:35,514 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-23 21:45:35,514 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-23 21:45:35,514 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-23 21:45:35,527 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-23 21:45:35,551 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-23 21:45:35,552 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-23 21:45:35,552 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-23 21:45:35,552 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-23 21:45:35,552 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-23 21:45:35,563 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-23 21:45:35,573 [13] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:10919 established (id=2)
+2021-12-23 21:45:35,600 [13] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-23 21:45:35,600 [13] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-23 21:46:22,911 [11] INFO  Photon.SocketServer.PeerBase - Disconnecting Peer=T:MasterClientPeer,ConnId:0,ip:127.0.0.1:60981: Send buffer full
+2021-12-23 21:59:12,592 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-23 21:59:12,599 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-23 21:59:12,600 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-23 21:59:12,600 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-23 21:59:12,605 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-23 21:59:12,620 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-23 21:59:12,623 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-23 21:59:12,623 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-23 21:59:12,623 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-23 21:59:12,624 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-23 21:59:12,624 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-23 21:59:12,624 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-23 21:59:12,624 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-23 21:59:12,624 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-23 21:59:12,624 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-23 21:59:12,624 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-23 21:59:12,624 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-23 21:59:12,635 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-23 21:59:12,659 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-23 21:59:12,659 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-23 21:59:12,659 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-23 21:59:12,659 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-23 21:59:12,659 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-23 21:59:12,668 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-23 21:59:12,674 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:6232 established (id=2)
+2021-12-23 21:59:12,698 [15] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-23 21:59:12,698 [15] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-23 21:59:39,177 [26] INFO  Photon.SocketServer.PeerBase - Disconnecting Peer=T:MasterClientPeer,ConnId:0,ip:127.0.0.1:63036: Send buffer full
+2021-12-23 22:01:57,433 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-23 22:01:57,442 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-23 22:01:57,443 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-23 22:01:57,443 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-23 22:01:57,449 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-23 22:01:57,468 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-23 22:01:57,472 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-23 22:01:57,472 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-23 22:01:57,472 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-23 22:01:57,472 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-23 22:01:57,472 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-23 22:01:57,472 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-23 22:01:57,472 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-23 22:01:57,472 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-23 22:01:57,472 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-23 22:01:57,472 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-23 22:01:57,472 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-23 22:01:57,486 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-23 22:01:57,510 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-23 22:01:57,511 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-23 22:01:57,511 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-23 22:01:57,511 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-23 22:01:57,511 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-23 22:01:57,520 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-23 22:01:57,528 [13] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:6571 established (id=2)
+2021-12-23 22:01:57,557 [14] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-23 22:01:57,557 [14] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-23 22:03:05,126 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-23 22:03:05,134 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-23 22:03:05,135 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-23 22:03:05,135 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-23 22:03:05,141 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-23 22:03:05,158 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-23 22:03:05,161 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-23 22:03:05,161 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-23 22:03:05,161 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-23 22:03:05,161 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-23 22:03:05,161 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-23 22:03:05,161 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-23 22:03:05,161 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-23 22:03:05,161 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-23 22:03:05,161 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-23 22:03:05,162 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-23 22:03:05,162 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-23 22:03:05,174 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-23 22:03:05,198 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-23 22:03:05,198 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-23 22:03:05,198 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-23 22:03:05,198 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-23 22:03:05,198 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-23 22:03:05,208 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-23 22:03:05,218 [10] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:6667 established (id=2)
+2021-12-23 22:03:05,247 [15] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-23 22:03:05,247 [15] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-23 22:03:38,087 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-23 22:03:38,094 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-23 22:03:38,095 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-23 22:03:38,095 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-23 22:03:38,100 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-23 22:03:38,115 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-23 22:03:38,118 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-23 22:03:38,118 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-23 22:03:38,118 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-23 22:03:38,118 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-23 22:03:38,118 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-23 22:03:38,118 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-23 22:03:38,118 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-23 22:03:38,118 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-23 22:03:38,118 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-23 22:03:38,118 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-23 22:03:38,118 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-23 22:03:38,129 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-23 22:03:38,151 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-23 22:03:38,152 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-23 22:03:38,152 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-23 22:03:38,152 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-23 22:03:38,152 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-23 22:03:38,162 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-23 22:03:38,172 [10] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:6707 established (id=2)
+2021-12-23 22:03:38,200 [15] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-23 22:03:38,200 [15] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-24 01:16:49,215 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 01:16:49,222 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-24 01:16:49,223 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-24 01:16:49,223 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-24 01:16:49,228 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-24 01:16:49,242 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 01:16:49,244 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-24 01:16:49,244 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-24 01:16:49,245 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-24 01:16:49,245 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-24 01:16:49,245 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-24 01:16:49,245 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-24 01:16:49,245 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-24 01:16:49,245 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-24 01:16:49,245 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-24 01:16:49,245 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-24 01:16:49,245 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-24 01:16:49,255 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-24 01:16:49,275 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-24 01:16:49,276 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-24 01:16:49,276 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-24 01:16:49,276 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-24 01:16:49,276 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-24 01:16:49,285 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-24 01:16:49,292 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:13325 established (id=2)
+2021-12-24 01:16:49,318 [14] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-24 01:16:49,318 [14] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-24 01:17:23,778 [25] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 01:17:23,785 [25] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-24 01:17:23,785 [25] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-24 01:17:23,785 [25] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-24 01:17:23,788 [25] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-24 01:17:23,799 [25] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 01:17:23,802 [25] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-24 01:17:23,802 [25] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-24 01:17:23,802 [25] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-24 01:17:23,802 [25] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-24 01:17:23,802 [25] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-24 01:17:23,802 [25] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-24 01:17:23,802 [25] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-24 01:17:23,803 [25] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-24 01:17:23,803 [25] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-24 01:17:23,803 [25] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-24 01:17:23,803 [25] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-24 01:17:23,812 [25] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-24 01:17:23,827 [25] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-24 01:17:23,827 [25] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-24 01:17:23,827 [25] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-24 01:17:23,827 [25] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-24 01:17:23,827 [25] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-24 01:17:23,836 [25] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-24 01:17:23,837 [25] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2021-12-24 01:17:23,837 [13] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=bb233781-b712-4682-bbe1-9a9321440e95, reason=ManagedDisconnect)
+2021-12-24 01:17:23,841 [17] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2021-12-24 01:17:24,912 [14] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:13341 established (id=3)
+2021-12-24 01:17:24,985 [26] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-24 01:17:24,985 [26] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-24 01:17:46,489 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 01:17:46,496 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-24 01:17:46,497 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-24 01:17:46,497 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-24 01:17:46,502 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-24 01:17:46,518 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 01:17:46,521 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-24 01:17:46,521 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-24 01:17:46,521 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-24 01:17:46,521 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-24 01:17:46,521 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-24 01:17:46,521 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-24 01:17:46,521 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-24 01:17:46,521 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-24 01:17:46,521 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-24 01:17:46,521 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-24 01:17:46,521 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-24 01:17:46,531 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-24 01:17:46,553 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-24 01:17:46,553 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-24 01:17:46,553 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-24 01:17:46,553 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-24 01:17:46,553 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-24 01:17:46,562 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-24 01:17:46,572 [10] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:13386 established (id=2)
+2021-12-24 01:17:46,597 [14] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-24 01:17:46,597 [14] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-24 01:18:19,327 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 01:18:19,334 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-24 01:18:19,335 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-24 01:18:19,335 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-24 01:18:19,340 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-24 01:18:19,351 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 01:18:19,354 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-24 01:18:19,354 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-24 01:18:19,354 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-24 01:18:19,354 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-24 01:18:19,354 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-24 01:18:19,354 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-24 01:18:19,354 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-24 01:18:19,355 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-24 01:18:19,355 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-24 01:18:19,355 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-24 01:18:19,355 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-24 01:18:19,364 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-24 01:18:19,385 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-24 01:18:19,385 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-24 01:18:19,385 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-24 01:18:19,386 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-24 01:18:19,386 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-24 01:18:19,394 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-24 01:18:19,402 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:13455 established (id=2)
+2021-12-24 01:18:19,430 [14] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-24 01:18:19,431 [14] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-24 01:19:02,430 [32] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 01:19:02,441 [32] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-24 01:19:02,442 [32] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-24 01:19:02,442 [32] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-24 01:19:02,445 [32] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-24 01:19:02,459 [32] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 01:19:02,463 [32] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-24 01:19:02,463 [32] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-24 01:19:02,463 [32] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-24 01:19:02,463 [32] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-24 01:19:02,463 [32] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-24 01:19:02,463 [32] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-24 01:19:02,463 [32] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-24 01:19:02,463 [32] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-24 01:19:02,464 [32] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-24 01:19:02,464 [32] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-24 01:19:02,464 [32] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-24 01:19:02,476 [32] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-24 01:19:02,496 [32] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-24 01:19:02,496 [32] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-24 01:19:02,497 [32] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-24 01:19:02,497 [32] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-24 01:19:02,497 [32] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-24 01:19:02,508 [32] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-24 01:19:02,510 [32] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=Master
+2021-12-24 01:19:02,510 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - OnDisconnect: game server connection closed (connectionId=2, serverId=daa9e542-a446-4d59-b988-8aecb08c44d4, reason=ManagedDisconnect)
+2021-12-24 01:19:02,513 [17] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=Master
+2021-12-24 01:19:03,575 [34] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:13470 established (id=3)
+2021-12-24 01:19:03,660 [10] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-24 01:19:03,660 [10] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-24 01:20:14,697 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 01:20:14,705 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-24 01:20:14,706 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-24 01:20:14,706 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-24 01:20:14,711 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-24 01:20:14,725 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 01:20:14,727 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-24 01:20:14,727 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-24 01:20:14,728 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-24 01:20:14,728 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-24 01:20:14,728 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-24 01:20:14,728 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-24 01:20:14,728 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-24 01:20:14,728 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-24 01:20:14,728 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-24 01:20:14,728 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-24 01:20:14,728 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-24 01:20:14,738 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-24 01:20:14,759 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-24 01:20:14,759 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-24 01:20:14,760 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-24 01:20:14,760 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-24 01:20:14,760 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-24 01:20:14,769 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-24 01:20:14,778 [10] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:13671 established (id=2)
+2021-12-24 01:20:14,802 [15] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-24 01:20:14,802 [15] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-24 01:53:56,526 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 01:53:56,533 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-24 01:53:56,534 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-24 01:53:56,534 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-24 01:53:56,539 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-24 01:53:56,553 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 01:53:56,556 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-24 01:53:56,556 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-24 01:53:56,556 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-24 01:53:56,556 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-24 01:53:56,556 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-24 01:53:56,556 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-24 01:53:56,556 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-24 01:53:56,556 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-24 01:53:56,556 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-24 01:53:56,556 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-24 01:53:56,556 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-24 01:53:56,568 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-24 01:53:56,590 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-24 01:53:56,590 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-24 01:53:56,590 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-24 01:53:56,591 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-24 01:53:56,591 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-24 01:53:56,600 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-24 01:53:56,608 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:10717 established (id=2)
+2021-12-24 01:53:56,633 [14] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-24 01:53:56,633 [14] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-24 01:54:50,600 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 01:54:50,607 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-24 01:54:50,608 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-24 01:54:50,608 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-24 01:54:50,613 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-24 01:54:50,627 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 01:54:50,629 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-24 01:54:50,629 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-24 01:54:50,630 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-24 01:54:50,630 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-24 01:54:50,630 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-24 01:54:50,630 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-24 01:54:50,631 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-24 01:54:50,631 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-24 01:54:50,631 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-24 01:54:50,631 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-24 01:54:50,631 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-24 01:54:50,641 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-24 01:54:50,662 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-24 01:54:50,662 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-24 01:54:50,662 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-24 01:54:50,662 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-24 01:54:50,662 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-24 01:54:50,671 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-24 01:54:50,682 [10] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:10730 established (id=2)
+2021-12-24 01:54:50,705 [15] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-24 01:54:50,705 [15] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-24 02:00:13,253 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 02:00:13,261 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-24 02:00:13,262 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-24 02:00:13,262 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-24 02:00:13,266 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-24 02:00:13,280 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 02:00:13,282 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-24 02:00:13,282 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-24 02:00:13,282 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-24 02:00:13,283 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-24 02:00:13,283 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-24 02:00:13,283 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-24 02:00:13,283 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-24 02:00:13,283 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-24 02:00:13,283 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-24 02:00:13,283 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-24 02:00:13,283 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-24 02:00:13,293 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-24 02:00:13,317 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-24 02:00:13,317 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-24 02:00:13,317 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-24 02:00:13,317 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-24 02:00:13,318 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-24 02:00:13,326 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-24 02:00:13,335 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:1222 established (id=2)
+2021-12-24 02:00:13,364 [14] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-24 02:00:13,364 [14] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-24 02:02:30,108 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 02:02:30,116 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-24 02:02:30,116 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-24 02:02:30,117 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-24 02:02:30,122 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-24 02:02:30,136 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 02:02:30,139 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-24 02:02:30,139 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-24 02:02:30,139 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-24 02:02:30,139 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-24 02:02:30,139 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-24 02:02:30,139 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-24 02:02:30,139 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-24 02:02:30,140 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-24 02:02:30,140 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-24 02:02:30,140 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-24 02:02:30,140 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-24 02:02:30,150 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-24 02:02:30,173 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-24 02:02:30,173 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-24 02:02:30,173 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-24 02:02:30,173 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-24 02:02:30,173 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-24 02:02:30,184 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-24 02:02:30,208 [21] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:1296 established (id=2)
+2021-12-24 02:02:30,294 [25] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-24 02:02:30,294 [25] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-24 02:03:08,950 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 02:03:08,961 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-24 02:03:08,962 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-24 02:03:08,962 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-24 02:03:08,968 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-24 02:03:08,985 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 02:03:08,988 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-24 02:03:08,988 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-24 02:03:08,988 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-24 02:03:08,988 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-24 02:03:08,988 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-24 02:03:08,988 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-24 02:03:08,988 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-24 02:03:08,988 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-24 02:03:08,988 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-24 02:03:08,989 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-24 02:03:08,989 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-24 02:03:09,000 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-24 02:03:09,023 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-24 02:03:09,023 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-24 02:03:09,023 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-24 02:03:09,023 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-24 02:03:09,023 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-24 02:03:09,032 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-24 02:03:09,039 [12] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:1310 established (id=2)
+2021-12-24 02:03:09,063 [15] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-24 02:03:09,063 [15] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-24 02:05:22,397 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 02:05:22,405 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-24 02:05:22,406 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-24 02:05:22,406 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-24 02:05:22,411 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-24 02:05:22,426 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 02:05:22,429 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-24 02:05:22,429 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-24 02:05:22,429 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-24 02:05:22,429 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-24 02:05:22,429 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-24 02:05:22,429 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-24 02:05:22,429 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-24 02:05:22,429 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-24 02:05:22,430 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-24 02:05:22,430 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-24 02:05:22,430 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-24 02:05:22,441 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-24 02:05:22,465 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-24 02:05:22,465 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-24 02:05:22,465 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-24 02:05:22,465 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-24 02:05:22,465 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-24 02:05:22,475 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-24 02:05:22,523 [21] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:1341 established (id=2)
+2021-12-24 02:05:22,565 [11] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-24 02:05:22,566 [11] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1
+2021-12-24 02:08:08,121 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 02:08:08,129 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - User has no Admin rights. HttpQueuePerformanceCounters initialization skipped
+2021-12-24 02:08:08,130 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - Start to initialize Photon: Custom Authentication Results performance counters
+2021-12-24 02:08:08,130 [1] INFO  Photon.Common.Authentication.Diagnostic.CustomAuthResultCounters - User has no Admin rights. CustomAuthResultCounters initialization skipped
+2021-12-24 02:08:08,135 [1] INFO  Photon.Common.LoadBalancer.LoadBalancer`1 - Initialized Load Balancer from configuration file: C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancer.config
+2021-12-24 02:08:08,147 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - TokenCreator intialized with an expiration of 02:46:40
+2021-12-24 02:08:08,149 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Plugin configured: name=TestPlugins
+2021-12-24 02:08:08,149 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: BaseUrl=http://photon-forward.webscript.io
+2021-12-24 02:08:08,150 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: IsPersistent=true
+2021-12-24 02:08:08,150 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: HasErrorInfo=true
+2021-12-24 02:08:08,150 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathClose=GameClose
+2021-12-24 02:08:08,150 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathCreate=GameCreate
+2021-12-24 02:08:08,150 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathEvent=GameEvent
+2021-12-24 02:08:08,150 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathGameProperties=GameProperties
+2021-12-24 02:08:08,150 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathJoin=GameJoin
+2021-12-24 02:08:08,150 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLeave=GameLeave
+2021-12-24 02:08:08,150 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - 	Attribute: PathLoad=GameCreate
+2021-12-24 02:08:08,160 [1] INFO  Photon.LoadBalancing.MasterServer.GameApplication - Application {Default}/{Default} starts without Redis
+2021-12-24 02:08:08,181 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Import nodes
+2021-12-24 02:08:08,181 [1] WARN  Photon.LoadBalancing.Common.NodesReader - C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt does not exist, CurrentNodeId = 0
+2021-12-24 02:08:08,181 [1] INFO  Photon.LoadBalancing.Common.NodesReader - Watching C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\Nodes.txt
+2021-12-24 02:08:08,181 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication - Current Node (nodeId=0) is the active master (leader)
+2021-12-24 02:08:08,182 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Master; AppPath=C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\LoadBalancing\LoadBalancing, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2021-12-24 02:08:08,190 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2021-12-24 02:08:08,199 [10] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer - game server connection from 127.0.0.1:1395 established (id=2)
+2021-12-24 02:08:08,227 [14] WARN  Photon.LoadBalancing.Common.NodesReader - Internal address for node 0 unknown; using loop back
+2021-12-24 02:08:08,227 [14] INFO  Photon.LoadBalancing.Common.NodesReader - Node added: 0 = 127.0.0.1

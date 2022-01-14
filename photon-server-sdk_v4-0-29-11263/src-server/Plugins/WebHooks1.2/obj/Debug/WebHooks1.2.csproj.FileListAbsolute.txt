@@ -3,6 +3,8 @@ C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\WebHooks1.2\bin\Newtonsoft.Json.dll
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\WebHooks1.2\bin\PhotonHivePlugin.dll
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\WebHooks1.2\bin\Newtonsoft.Json.xml
-C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\WebHooks1.2\obj\Debug\WebHooks1.2.csprojResolveAssemblyReference.cache
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\WebHooks1.2\obj\Debug\PhotonHive.WebHooksPlugin1.2.dll
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\WebHooks1.2\obj\Debug\PhotonHive.WebHooksPlugin1.2.pdb
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\WebHooks1.2\obj\Debug\WebHooks1.2.csproj.AssemblyReference.cache
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\WebHooks1.2\obj\Debug\WebHooks1.2.csproj.CoreCompileInputs.cache
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Plugins\WebHooks1.2\obj\Debug\WebHooks1.2.csproj.CopyComplete

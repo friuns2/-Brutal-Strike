@@ -42,3 +42,6 @@ C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\Stardust.Client\bin\PhotonLoadbalancingApi.xml
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\Stardust.Client\obj\Debug\Photon.StarDust.Client.exe
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\Stardust.Client\obj\Debug\Photon.StarDust.Client.pdb
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\Stardust.Client\obj\Debug\StarDust.Client.csproj.AssemblyReference.cache
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\Stardust.Client\obj\Debug\StarDust.Client.csproj.CoreCompileInputs.cache
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\Stardust.Client\obj\Debug\StarDust.Client.csproj.CopyComplete

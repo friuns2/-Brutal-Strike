@@ -35,7 +35,6 @@ public enum WeaponType
     Attachments = 8,
     Ammo = 9
 }
-
 // [RequireComponent(typeof(PhotonView))]
 public partial class Weapon : WeaponBase
 {
@@ -357,6 +356,7 @@ public partial class Weapon : WeaponBase
     
     public virtual void Shoot(Vector3 hpos, int plID, Vector3 viewportP)
     {
+            
         if (pl.knocked) return;
         var enemy = ToObject<Player>(plID);
         Vector3 forward = viewportP;
@@ -383,34 +383,36 @@ public partial class Weapon : WeaponBase
             return (spread + new Vector3(gripsScale.x * -vert, 0, 0)) *accuracyImprove;
         }
 
-
-        float hardcoreRecoil = this.hardcoreRecoil * roomSettings.hardRecoil ;//accuracyImprove included in exec()
-        float softRecoil = this.softRecoil * roomSettings.softRecoil ;//accuracyImprove included in exec()
-        if (pl.owner.stats.reverseRecoil)
+        if (!oculus)
         {
-            softRecoil *= -1;
-            hardcoreRecoil *= -1;
+            float hardcoreRecoil = this.hardcoreRecoil * roomSettings.hardRecoil; //accuracyImprove included in exec()
+            float softRecoil = this.softRecoil * roomSettings.softRecoil; //accuracyImprove included in exec()
+            if (pl.owner.stats.reverseRecoil)
+            {
+                softRecoil *= -1;
+                hardcoreRecoil *= -1;
+            }
+
+            if (recoilKick > 0)
+                pl.iMoveController.veloticy -= forward * recoilKick;
+
+            if (TimeCached.time == mouseDownTime && firstShootNoHardRecoil)
+            {
+                softRecoil += hardcoreRecoil;
+                hardcoreRecoil = 0;
+            }
+
+            Vector3 offsetDirEuler = exec(true) * hardcoreRecoil;
+
+
+            pl.mouse += EulerToMouse(offsetDirEuler);
+
+            if (!pl.bot)
+                pl.CamRnd.localRotation = Quaternion.Euler(Vector3.ClampMagnitude(clampAngle(pl.CamRnd.localRotation.eulerAngles), softRecoilClamp) + exec(false) * (softRecoil * gripsScale.z));
+
+            if (pl.observing && !oculus)
+                _ObsCamera.camOffset -= forward * damage / 1000;
         }
-
-        if (recoilKick > 0)
-            pl.iMoveController.veloticy -= forward * recoilKick;
-
-        if (TimeCached.time == mouseDownTime && firstShootNoHardRecoil)
-        {
-            softRecoil += hardcoreRecoil;
-            hardcoreRecoil = 0;
-        }
-        
-        Vector3 offsetDirEuler = exec(true) * hardcoreRecoil;
-
-
-        pl.mouse += EulerToMouse(offsetDirEuler);
-        
-        if (!pl.bot)
-            pl.CamRnd.localRotation = Quaternion.Euler(Vector3.ClampMagnitude(clampAngle(pl.CamRnd.localRotation.eulerAngles),softRecoilClamp) + exec(false) * (softRecoil * gripsScale.z));
-
-        if (pl.observing)
-            _ObsCamera.camOffset -= forward * damage/1000;
 
         shootFrame = Time.renderedFrameCount;
         shootTime = TimeCached.time;

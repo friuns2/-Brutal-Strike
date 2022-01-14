@@ -8,3 +8,5 @@ C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\HivePlugin\bin\Debug\PhotonHivePlugin.pdb
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\HivePlugin\obj\Debug\PhotonHivePlugin.dll
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\HivePlugin\obj\Debug\PhotonHivePlugin.pdb
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\HivePlugin\obj\Debug\PhotonHivePlugin.csproj.AssemblyReference.cache
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\HivePlugin\obj\Debug\PhotonHivePlugin.csproj.CoreCompileInputs.cache

@@ -11,3 +11,7 @@
 /Prerequisites/
 /out.txt
 /.gitlab/
+tmp/
+Temp/
+bin/
+assembly/

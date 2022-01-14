@@ -33,6 +33,10 @@ C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive.NUnit\bin\Debug\PhotonLoadbalancingApi.pdb
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive.NUnit\bin\Debug\PhotonLoadbalancingApi.xml
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive.NUnit\bin\Debug\ServiceStack.Text.xml
-C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive.NUnit\obj\Debug\PhotonHive.Tests.csprojResolveAssemblyReference.cache
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive.NUnit\obj\Debug\PhotonHive.Tests.dll
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive.NUnit\obj\Debug\PhotonHive.Tests.pdb
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive.NUnit\bin\Debug\PhotonHive.dll.config
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive.NUnit\bin\Debug\Photon.SocketServer.dll.config
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive.NUnit\obj\Debug\PhotonHive.Tests.csproj.AssemblyReference.cache
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive.NUnit\obj\Debug\PhotonHive.Tests.csproj.CoreCompileInputs.cache
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive.NUnit\obj\Debug\PhotonHive.Tests.csproj.CopyComplete

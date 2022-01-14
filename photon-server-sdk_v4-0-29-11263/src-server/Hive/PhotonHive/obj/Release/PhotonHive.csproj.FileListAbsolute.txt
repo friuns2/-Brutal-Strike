@@ -23,8 +23,8 @@ C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive\bin\Photon.SocketServer.xml
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive\bin\Photon.SocketServer.dll.config
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive\bin\ServiceStack.Text.xml
-C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive\obj\Release\PhotonHive.csprojAssemblyReference.cache
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive\obj\Release\PhotonHive.csproj.CoreCompileInputs.cache
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive\obj\Release\PhotonHive.csproj.CopyComplete
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive\obj\Release\PhotonHive.dll
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive\obj\Release\PhotonHive.pdb
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Hive\PhotonHive\obj\Release\PhotonHive.csproj.AssemblyReference.cache

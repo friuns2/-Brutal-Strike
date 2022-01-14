@@ -39,8 +39,8 @@ C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\LoadBalancing\bin\Photon.SocketServer.pdb
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\LoadBalancing\bin\Photon.SocketServer.xml
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\LoadBalancing\bin\Photon.SocketServer.dll.config
-C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\LoadBalancing\obj\Release\LoadBalancing.csprojAssemblyReference.cache
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\LoadBalancing\obj\Release\LoadBalancing.csproj.CoreCompileInputs.cache
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\LoadBalancing\obj\Release\LoadBalancing.csproj.CopyComplete
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\LoadBalancing\obj\Release\Photon.LoadBalancing.dll
 C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\LoadBalancing\obj\Release\Photon.LoadBalancing.pdb
+C:\Users\friuns\Documents\unityHalf-life\builds\brutalStrike\photon-server-sdk_v4-0-29-11263\src-server\Loadbalancing\LoadBalancing\obj\Release\LoadBalancing.csproj.AssemblyReference.cache

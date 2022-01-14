@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PhysxGunObj:bs,IOnStartGame
+public class PhysxGunObj:bs,IOnStartGame,ITriggerEvent
 {
     public PhysxGun gun;
     
