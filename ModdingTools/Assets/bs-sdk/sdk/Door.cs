@@ -246,7 +246,7 @@ public class Door : Destructable, IOnPlayerStay
             Door door = isButton ? targetDoor : this;
             if (!door)
                 printMissing(Concat(target, " not found"));
-            else if (Android || pl.bot ? !door.opened : pl.Input2.GetKeyDown(KeyCode.F, "Press {0} To Open Door", "Door"))
+            else if (Android||oculus || pl.bot ? !door.opened : pl.Input2.GetKeyDown(KeyCode.F, "Press {0} To Open Door", "Door"))
             {
                 door.RPCOpenDoor();
                 if (door.physics)

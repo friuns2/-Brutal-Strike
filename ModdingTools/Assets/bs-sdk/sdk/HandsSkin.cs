@@ -102,6 +102,9 @@ public class HandsSkin : bs, ISkinBase, IPosRot, IOnLoadAsset
         foreach (var a in GetComponentsInChildren<ParticleSystem>(true))
             a.playOnAwake = false;
 
+        if (MuzzleFlash == null)
+            MuzzleFlash = transform;
+        
         if (MuzzleFlash2 == null || MuzzleFlash2.Length == 0)
             MuzzleFlash2 = new Transform[] {MuzzleFlash};
         
@@ -138,8 +141,8 @@ public class HandsSkin : bs, ISkinBase, IPosRot, IOnLoadAsset
             }
             try
             {
-                vrHands[1] = GetComponentsInChildren<Transform>().FirstOrDefault(a => Regex.Match(a.GetName(),"(left|l).hand",RegexOptions.IgnoreCase).Success).position - tr.position;
-                vrHands[0] = GetComponentsInChildren<Transform>().FirstOrDefault(a => Regex.Match(a.GetName(),"(right|r).hand",RegexOptions.IgnoreCase).Success).position - tr.position;
+                vrHands[1] = GetComponentsInChildren<Transform>().FirstOrDefault(a => Regex.Match(a.GetName(),"(left|l).(hand|wrist)",RegexOptions.IgnoreCase).Success).position - tr.position;
+                vrHands[0] = GetComponentsInChildren<Transform>().FirstOrDefault(a => Regex.Match(a.GetName(),"(right|r).(hand|wrist)",RegexOptions.IgnoreCase).Success).position - tr.position;
             }
             catch (Exception e)
             {
