@@ -225,6 +225,8 @@ public partial class Weapon : WeaponBase
         automaticMode = automatic;
         base.Start();
         canAimWithoutScope = Hands && Hands.crosshair && roomSettings.canAimWithoutScope;
+        // if (!Hands.crosshair)
+            // Hands.crosshair = Hands.muzzleFlashPos;
     }
 
     //[PunRPC]
@@ -295,9 +297,15 @@ public partial class Weapon : WeaponBase
     }
     private void SetMuzzleFlash(bool muzzleFLash)
     {
-        gunSkin.muzzleFlashTC.active = (muzzleFLash && pl.modelVisible);
-        if (pl.observing)
-            Hands.MuzzleFlashLight.enabled = muzzleFLash;
+        try
+        {
+            gunSkin.muzzleFlashTC.active = (muzzleFLash && pl.modelVisible);
+            if (pl.observing)
+                Hands.MuzzleFlashLight.enabled = muzzleFLash;
+        }
+        catch
+        {
+        }
     }
     public override void OnTake(GunInfo info)
     {

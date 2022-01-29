@@ -28,6 +28,7 @@ public class HandsSkin : bs, ISkinBase, IPosRot, IOnLoadAsset
     public Transform vrForward;
     // public bool leftController;
     public Transform crosshair;
+    public Transform Crosshair { get { return _ObsCamera.aiming ? (gunBase as Weapon)?.scope?.Hands?.crosshair ?? crosshair : muzzleFlashPos; } }
     // public Renderer handsRenderer;
     // public Transform crosshair2;
     public Transform[] attachments = new Transform[0];
@@ -75,8 +76,9 @@ public class HandsSkin : bs, ISkinBase, IPosRot, IOnLoadAsset
     public override void Awake()
     {
         base.Awake();
-        if (!crosshair)
-            crosshair = tr;
+        
+        
+        
 
         
         // if (handsRenderer == null)
@@ -89,7 +91,8 @@ public class HandsSkin : bs, ISkinBase, IPosRot, IOnLoadAsset
         if (animator)
             animator.cullingMode = AnimatorCullingMode.AlwaysAnimate;
 
-        foreach (SkinnedMeshRenderer a in GetComponentsInChildren<SkinnedMeshRenderer>(true))
+        var skms = GetComponentsInChildren<SkinnedMeshRenderer>(true);
+        foreach (SkinnedMeshRenderer a in skms)
         {
             a.updateWhenOffscreen = true;
 //            a.lightProbeUsage = LightProbeUsage.UseProxyVolume;
@@ -108,21 +111,39 @@ public class HandsSkin : bs, ISkinBase, IPosRot, IOnLoadAsset
         if (MuzzleFlash2 == null || MuzzleFlash2.Length == 0)
             MuzzleFlash2 = new Transform[] {MuzzleFlash};
         
+
         if (oculus)
         {
             if (!vrForward)
                 vrForward = transform;
-            // transform.localScale *= 1.5f;
+            // foreach(var a in renderers)
+            // if (a is SkinnedMeshRenderer skm)
+            // skm.updateWhenOffscreen = true;
+            // var mag = skms.Max(a => a.bounds.size.magnitude);
+            // if (mag != 0)
+            //     transform.localScale *= 100f / mag;
+            
             foreach (var a in GetComponentsInChildren<ParticleOffsetter>())
                 a.enabled = false;
-            if (vrHands[0]==Vector3.zero)
+            if (vrHands[0] == Vector3.zero)
             {
                 InitVrHands();
             }
         }
         
     }
-     
+    public float FindHand(Transform t,params string[] ss)
+    {
+        float score = 0;
+        for (int i = 0; i < ss.Length; i++)
+        {
+            var ds = Regex.Split(FieldCache.BetterName(t.GetName()), "\\W");
+            if (ds.Any(a => a.Equals(ss[i], StringComparison.OrdinalIgnoreCase)))
+                score += 1f / (i+1);
+        }
+        return score;
+
+    }
     [ContextMenu("InitVrHands")]
     private void InitVrHands()
     {
@@ -137,16 +158,17 @@ public class HandsSkin : bs, ISkinBase, IPosRot, IOnLoadAsset
             }
             catch (Exception e)
             {
-                Debug.LogException(e);
+                // Debug.LogException(e);
             }
             try
             {
-                vrHands[1] = GetComponentsInChildren<Transform>().FirstOrDefault(a => Regex.Match(a.GetName(),"(left|l).(hand|wrist)",RegexOptions.IgnoreCase).Success).position - tr.position;
-                vrHands[0] = GetComponentsInChildren<Transform>().FirstOrDefault(a => Regex.Match(a.GetName(),"(right|r).(hand|wrist)",RegexOptions.IgnoreCase).Success).position - tr.position;
+                var componentsInChildren = GetComponentsInChildren<Transform>();
+                vrHands[1] = componentsInChildren.SelectMax(a => FindHand(a, "left", "l", "hand", "wrist", "arm")).position - tr.position;
+                vrHands[0] = componentsInChildren.SelectMax(a => FindHand(a, "right", "r", "hand", "wrist", "arm")).position - tr.position;
             }
             catch (Exception e)
             {
-                Debug.LogException(e);
+                // Debug.LogException(e);
             }
             // vrHands[0] = GetComponentsInChildren<Transform>().FirstOrDefault(a => a.GetName().ContainsFastIc("left") && a.GetName().ContainsFastIc("hand")).position - tr.position;
             // vrHands[1] = GetComponentsInChildren<Transform>().FirstOrDefault(a => a.GetName().ContainsFastIc("right") && a.GetName().ContainsFastIc("hand")).position - tr.position;
@@ -225,5 +247,13 @@ public class HandsSkin : bs, ISkinBase, IPosRot, IOnLoadAsset
     {
         foreach (var a in GetComponentsInChildren<Collider>(true))
             a.enabled = false;
+        if(oculus)
+            foreach (var a in GetComponentsInChildren<LODGroup>(true))
+            {
+                var d = a.GetLODs();
+                for (int i = 0; i < d.Length; i++)
+                    d[i].screenRelativeTransitionHeight /= 10;
+                a.SetLODs(d);
+            }
     }
 }
