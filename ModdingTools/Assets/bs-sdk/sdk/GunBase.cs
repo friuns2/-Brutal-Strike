@@ -79,6 +79,7 @@ public class GunBase : bsNetwork, IOnLoadAsset, IOnLevelEditorGUI,IDontDisable, 
     public ObscuredInt dropAmmount = 1;
     public ObscuredFloat m_aimSpeed = 16.5f;
     public float gravityFactor=1;
+    
         
     
     //public Slot slot = new Slot();
@@ -383,7 +384,7 @@ public class GunBase : bsNetwork, IOnLoadAsset, IOnLevelEditorGUI,IDontDisable, 
     public bool inited;
     public virtual void OnSelectGun(bool selected)
     {
-        print("gun selected ", name, " ", selected);
+        // print("gun selected ", name, " ", selected);
         if (this.selected == selected) return;
         this.selected = selected;
          

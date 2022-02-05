@@ -18,6 +18,7 @@ public class Ladder : ItemBase, IOnPlayerEnter
         base.Start();
         InitTriggers();
     }
+#endif
 
     public void OnPlayerEnter(Player pl, Trigger other, bool b)
     {
@@ -26,7 +27,6 @@ public class Ladder : ItemBase, IOnPlayerEnter
             pl.RPCSetClimb(b);
     }
     
-#endif
     
 }
 

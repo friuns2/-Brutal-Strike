@@ -158,8 +158,8 @@ public partial class PlayerClass : bs, IOnLoadAsset,IOnLevelEditorGUI
 
     // public ObscuredFloat q3Speed { get { return GetQ3Speed(TargetSpeed, q3Decline); } }
     public float TargetSpeed { get { return zombie ? targetSpeed : targetSpeed * roomSettings.playerSpeedFactor; } }
-    public static float zombiePower { get { return (1f + _Game.playersAll.Count(a => !a.spectator && !a.zombie && a.alive)) / (_Game.playersAll.Count(a => !a.spectator && a.alive && a.zombie) + 1f); } }
-    public VarParse2 varParse { get { return m_varParse ?? (m_varParse = new VarParse2(Game.varManager,this, "playerClass/" + id, RoomInfo: room)); } }
+    public static float aliveVsDead { get { return (1f + _Game.playersAll.Count(a => !a.spectator && !a.deadOrZombie )) / (_Game.playersAll.Count(a => !a.spectator  && a.deadOrZombie) + 1f); } }
+    public VarParse2 varParse { get { return m_varParse ?? (m_varParse = new VarParse2(Game.varManager,this, "playerClass/" + id, RoomInfo: room)); } } 
     internal VarParse2 m_varParse;
     public AudioClip2 helpSound;
     public AudioClip2 imHit;
@@ -282,10 +282,7 @@ public partial class PlayerClass : bs, IOnLoadAsset,IOnLevelEditorGUI
         return new PlayerState();
     }
 
-    public PlayerState GetState(PlayerStateEnum state)
-    {
-        return playerStates[(int)state];
-    }
+    
 
 
     public override void OnInspectorGUI()
@@ -331,10 +328,14 @@ public partial class PlayerClass : bs, IOnLoadAsset,IOnLevelEditorGUI
     // public Transform[] randomGibs = new Transform[0];
     
 #else
+      
     public void OnLoadAsset()
     {
     }
 #endif
-    
+    public PlayerState GetState(PlayerStateEnum state)
+    {
+        return playerStates[(int)state];
+    } 
 }
 

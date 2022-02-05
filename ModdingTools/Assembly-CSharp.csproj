@@ -107,6 +107,7 @@
      <Compile Include="Assets\bs-sdk\Other.cs" />
      <Compile Include="Assets\bs-sdk\PhotonView.cs" />
      <Compile Include="Assets\bs-sdk\Test.cs" />
+     <Compile Include="Assets\bs-sdk\bs.cs" />
      <Compile Include="Assets\bs-sdk\lm\LightMapSave.cs" />
      <Compile Include="Assets\bs-sdk\lm\SaveLightmap.cs" />
      <Compile Include="Assets\bs-sdk\sdk\Ammo.cs" />
@@ -219,6 +220,7 @@
      <Compile Include="Assets\scripts\Weps\WallConstruction.cs" />
      <Compile Include="Assets\scripts\Weps\ZombieHands.cs" />
      <Compile Include="Assets\scripts\bl_MiniMapItem.cs" />
+     <Compile Include="Assets\test\ObsCamera.cs" />
      <None Include="Assets\bs-sdk\sdk\Prefabs\SwordMan\OrdosFX\Magic Slashes FX\MobileBloom\Resources\Slashes_Bloom.shader" />
      <None Include="Assets\ContentIncluded\KriptoFX\Shaders\ExplosionsGlowAdditive.shader" />
      <None Include="Assets\zother\Normal-Diffuse2.shader" />

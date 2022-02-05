@@ -18,20 +18,6 @@ public class PhysxGun : GunBase
     public float shootForce = 100;
     // public List<GameObject> addMeshCollider = new List<GameObject>();
     public AudioClip gravityGun;
-    
-    #if game
-    public static FastList2<PhysxGunObj> cubes => GetInstances<PhysxGunObj>();
-
-    private Animation handsAnimation ;
-    
-    public override void OnSelectGun(bool selected)
-    {
-        base.OnSelectGun(selected);
-        if (!handsAnimation)
-            handsAnimation = Hands.GetComponentInChildren<Animation>();
-        if(!selected)
-            pl.weaponAudioSource.Stop();
-    }
     [ContextMenu("Init PhysGun")]
     public void InitPhysGun()
     {
@@ -47,6 +33,20 @@ public class PhysxGun : GunBase
         // base.OnLoadAsset();
     }
     public  List<PhysxGunObj> trs = new List<PhysxGunObj>();
+    #if game
+    public static FastList2<PhysxGunObj> cubes => GetInstances<PhysxGunObj>();
+
+    private Animation handsAnimation ;
+    
+    public override void OnSelectGun(bool selected)
+    {
+        base.OnSelectGun(selected);
+        if (!handsAnimation)
+            handsAnimation = Hands.GetComponentInChildren<Animation>();
+        if(!selected)
+            pl.weaponAudioSource.Stop();
+    }
+  
     private bool oldMouseButton;
     public void Update()
     {
@@ -105,7 +105,7 @@ public class PhysxGun : GunBase
             {
                 var normalized = Random.insideUnitCircle.normalized;
                 normalized.y = Mathf.Max(normalized.y, 0);
-                var plPos = pl.pos + pl.rot * normalized * Random.Range(2, 5);
+                var plPos = pl.pos + pl.rot * normalized * Random.Range(2, 5)+pl.Cam.forward;
                 var cube = Instantiate(trs.Random(), plPos, Random.rotation);
                 cube.createTime = TimeCached.time;
                 cube.gun = this;

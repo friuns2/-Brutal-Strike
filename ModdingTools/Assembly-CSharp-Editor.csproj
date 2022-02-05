@@ -90,6 +90,8 @@
      <Compile Include="Assets\Editor\BetterBuildInfo\Internal\BBI_VersionControlUtils.cs" />
      <Compile Include="Assets\Editor\BetterBuildInfo\Internal\BBI_WildcardTest.cs" />
      <Compile Include="Assets\Editor\CustomInspector.cs" />
+     <Compile Include="Assets\Editor\Project-Browser-master\ProjectBrowserController.cs" />
+     <Compile Include="Assets\Editor\Project-Browser-master\ProjectBrowserUtils.cs" />
      <Compile Include="Assets\Editor\RexDiagnostics\Core\Helpers\AOutputEntry.cs" />
      <Compile Include="Assets\Editor\RexDiagnostics\Core\Helpers\AccessingDeletedVariableException.cs" />
      <Compile Include="Assets\Editor\RexDiagnostics\Core\Helpers\CodeCompletion.cs" />

@@ -28,7 +28,6 @@ public class HandsSkin : bs, ISkinBase, IPosRot, IOnLoadAsset
     public Transform vrForward;
     // public bool leftController;
     public Transform crosshair;
-    public Transform Crosshair { get { return _ObsCamera.aiming ? (gunBase as Weapon)?.scope?.Hands?.crosshair ?? crosshair : muzzleFlashPos; } }
     // public Renderer handsRenderer;
     // public Transform crosshair2;
     public Transform[] attachments = new Transform[0];
@@ -65,6 +64,7 @@ public class HandsSkin : bs, ISkinBase, IPosRot, IOnLoadAsset
 #endif
 
 #if game
+    public Transform Crosshair { get { return _ObsCamera.aiming ? (gunBase as Weapon)?.scope?.Hands?.crosshair ?? crosshair : muzzleFlashPos; } }
     public Transform muzzleFlashPos => MuzzleFlash2[(gunBase as Weapon)?.shootIndex ?? 0];
 
 
@@ -218,6 +218,19 @@ public class HandsSkin : bs, ISkinBase, IPosRot, IOnLoadAsset
     public Bundle skinBundle { get; set; }
     public GunBase gunBase { get; set; }
     public Action resetTextures { get; set; }
+    public void OnLoadAsset()
+    {
+        foreach (var a in GetComponentsInChildren<Collider>(true))
+            a.enabled = false;
+        if(oculus)
+            foreach (var a in GetComponentsInChildren<LODGroup>(true))
+            {
+                var d = a.GetLODs();
+                for (int i = 0; i < d.Length; i++)
+                    d[i].screenRelativeTransitionHeight /= 10;
+                a.SetLODs(d);
+            }
+    }
 #endif
 #if UNITY_EDITOR
     public override void OnInspectorGUI()
@@ -243,17 +256,5 @@ public class HandsSkin : bs, ISkinBase, IPosRot, IOnLoadAsset
 #endif
 
 
-    public void OnLoadAsset()
-    {
-        foreach (var a in GetComponentsInChildren<Collider>(true))
-            a.enabled = false;
-        if(oculus)
-            foreach (var a in GetComponentsInChildren<LODGroup>(true))
-            {
-                var d = a.GetLODs();
-                for (int i = 0; i < d.Length; i++)
-                    d[i].screenRelativeTransitionHeight /= 10;
-                a.SetLODs(d);
-            }
-    }
+
 }

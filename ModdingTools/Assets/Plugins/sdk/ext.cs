@@ -6,7 +6,19 @@ using Random = System.Random;
 
 public static class ext
 {
-    
+    public static IEnumerable<TSource> Concat2<TSource>(this IEnumerable<TSource> first, TSource second)
+    {
+        foreach (var a in first)
+            yield return a;
+        yield return second;
+    }
+public static List<Transform> GetTransforms(this Transform t)
+    {
+        var list = new List<Transform>();
+        for (int i = 0; i < t.childCount; i++)
+            list.Add(t.GetChild(i));
+        return list;
+    }    
     public  static bool hasAlpha(Texture2D txt)
     {
         return GraphicsFormatUtility.HasAlphaChannel(txt.graphicsFormat);

@@ -60,7 +60,6 @@ public class Grenade : WeaponBase
             grenadeThrown.Clear();
             yield break;
         }
-        
         if (active &&pl.MouseButtonAny && have && IsMine && Count-grenadeThrown.Count>0)
         {
             RPCPlayAnimation(Anims.startShoot, .1f);

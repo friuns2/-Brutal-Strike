@@ -55,7 +55,7 @@ public partial class Weapon : WeaponBase
     public float softRecoil = 1;
     public float recoilKick;
     public ObscuredFloat recoverLerp = 2;
-
+    public float focus=1;
     //public ObscuredInt maxBullets = 0;
     //public ObscuredInt maxClips = 2;
     // public ObscuredInt extraRayCount = 1;
@@ -419,7 +419,7 @@ public partial class Weapon : WeaponBase
                 pl.CamRnd.localRotation = Quaternion.Euler(Vector3.ClampMagnitude(clampAngle(pl.CamRnd.localRotation.eulerAngles), softRecoilClamp) + exec(false) * (softRecoil * gripsScale.z));
 
             if (pl.observing && !oculus)
-                _ObsCamera.camOffset -= forward * damage / 1000;
+                _ObsCamera.camOffset -= forward * Mathf.Min(100,damage) / 1000;
         }
 
         shootFrame = Time.renderedFrameCount;
