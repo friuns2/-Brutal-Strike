@@ -40,7 +40,7 @@ public static class ExecutionOrder
     public const int ObsCamera = 5;
     public const int Hud = 8;
     public const int DeactiveWaitForGame = 9; //if first in order Awake not called, if last OnEnabled called twice
-
+    public const int Default = 0;
 }
 public static class Tag
 {

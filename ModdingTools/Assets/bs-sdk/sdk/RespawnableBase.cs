@@ -35,13 +35,13 @@ public class RespawnableBase : ItemBaseVarParse,IOnTriggerInit
     public override void OnPlayerNearEnter(Player pl,bool b)
     {
         base.OnPlayerNearEnter(pl, b);
-        if (pl.IsMainPlayer && transformCache)
+        if (hideWhenFarAway && pl.IsMainPlayer && transformCache)
             transformCache.visible = b;
     }
 
-
+    public bool hideWhenFarAway = true;
     public void InitTrigger(Trigger t)
-    { if(transformCache ) //should be rendered at near
+    { if(hideWhenFarAway  && transformCache ) //should be rendered at near
         transformCache.visible = false;
     }
 #endif

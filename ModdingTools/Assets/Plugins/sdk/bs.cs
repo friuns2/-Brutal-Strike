@@ -22,6 +22,11 @@ public class FieldAtr:Attribute
 {
     public bool inherit;
     public bool dontDraw;
+    public bool readOnly { get { return false; } set { } }
+    public int priority { get { return 0; } set { } }
+    public bool devOnly { get { return false; } set { } }
+    public bool preGameOnly { get { return false; } set { } }
+    public GameType gameType { get { return (GameType)0; } set { } }
 }
 // [Serializable]
 // public class AnimationDict : SerializableDictionary<Anims, AnimationClip>
@@ -71,10 +76,18 @@ public class PunRPC : Attribute
 {
     
 }
+public class RoomPulbic:Attribute{}
 public class FieldAtrStart:Attribute
 {
     public bool inherit { get { return false; } set { } }
+    public bool readOnly { get { return false; } set { } }
+    public GameType gameType;
 }
+public class GameTypes
+{
+    public const GameType noRespawnTypes =  GameType.Classic | GameType.Survival | GameType.Mission | GameType.zombieMode ;
+}
+
 public interface IOnInspectorGUI
 {
     void OnInspectorGUI();

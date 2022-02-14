@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using Microsoft.Win32;
 #if !game
 using RealtimeCSG;
@@ -169,8 +170,11 @@ public partial class BuildToolsSDK : EditorWindow
             
             AssetBundleManifest man = BuildPipeline.BuildAssetBundles(skinsDir, new[] {build}, BuildAssetBundleOptions.ForceRebuildAssetBundle, target);
             RenameFile(skinsDir + path, skinsDir + path2);
+            var hash = MD5.Create().ComputeHash(File.ReadAllBytes(skinsDir + path2));
+            File.WriteAllBytes(skinsDir + path2+".check",hash);
             Debug.Log(man.name);
         }
+        
         CleanupDir(skinsDir);
 
     }

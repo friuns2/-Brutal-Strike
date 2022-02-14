@@ -27,7 +27,7 @@ public class C4 : GunBase
         base.Update2();
         
         if(IsMine)
-            RPCSetMouseButton(have && (!menuLoaded||pl.bombIsNear ||!Classic) && MouseButton && pl.move == Vector3.zero);
+            RPCSetMouseButton(have && (pl.bombIsNear ||!Classic) && MouseButton && pl.move == Vector3.zero);
 
 
         var planting = remoteMouseButtonDown && (Mission || pl.team == TeamEnum.Terrorists);

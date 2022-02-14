@@ -17,7 +17,7 @@ public class GrenadeBullet : BulletBase,ISetLife,IOnPlayerEnter
             if ((g.pos - pos).magnitude < range)
             {
                 var gToPl = (g.pos - pos);
-                g.RPCDamageAddLife(gun.damage*(1f - gToPl.magnitude / range / 2));
+                g.RPCDamageAddLife(-gun.damage*(1f - gToPl.magnitude / range / 2));
             }
         
         base.Explode();

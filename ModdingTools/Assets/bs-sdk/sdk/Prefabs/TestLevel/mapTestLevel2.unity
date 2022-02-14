@@ -1636,9 +1636,9 @@ GameObject:
   - component: {fileID: 877871465}
   - component: {fileID: 877871464}
   - component: {fileID: 877871463}
-  - component: {fileID: 877871462}
   - component: {fileID: 877871469}
   - component: {fileID: 877871468}
+  - component: {fileID: 877871462}
   m_Layer: 0
   m_Name: Platform
   m_TagString: Untagged
@@ -1646,18 +1646,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 121
   m_IsActive: 1
---- !u!75 &877871462
-ConstantForce:
+--- !u!95 &877871462
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 877871461}
   m_Enabled: 1
-  m_Force: {x: 0, y: 0, z: 0}
-  m_RelativeForce: {x: 0, y: 0, z: 0}
-  m_Torque: {x: 0, y: 22, z: 0}
-  m_RelativeTorque: {x: 0, y: 0, z: 0}
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ea5bdfdf8e3c76a44bac401eda76adf5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!54 &877871463
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1741,13 +1748,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 877871461}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0.018808221, z: -0, w: 0.9998231}
   m_LocalPosition: {x: 12.49, y: 1.37, z: -10.43}
   m_LocalScale: {x: 12.396, y: 0.46658, z: 6.2522864}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 357.845, z: 0}
 --- !u!114 &877871468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4406,8 +4413,6 @@ MonoBehaviour:
       published: 0
       mapVersion: 0
       userName: 
-      mapName: 
-      originalMapName: 
       iconUrl: 
       sceneUrl: 
       enableBotSupport: 1
@@ -4418,6 +4423,8 @@ MonoBehaviour:
       cacheVersion: 0
       userId: 0
       originalUserId: 0
+      originalMapName: 
+      mapName: 
       originalUserName: 
       anyGameType: 1
       type: 0
@@ -4432,6 +4439,7 @@ MonoBehaviour:
     mapMods: []
     maxPlayers: 16
     country: 
+    password: 
     version: 0
     mpVersion: 0
     androidOnly: 0
@@ -4452,7 +4460,6 @@ MonoBehaviour:
     maxPing: 999
     enableHostage: 0
     missionRespawn: 1
-    maxPlayersPerTeam: 4
     allowSpectator: 1
     validateBulletsTwoWays: 0
     runSpread: 1
@@ -4463,6 +4470,8 @@ MonoBehaviour:
     selfRevive: 0
     knockTime: 120
     enableKnocking: 1
+    showHealth: 1
+    forceTeamChat: 0
     dontKillKnocked: 0
     ignorePlayerCollision: 0
     disableLootDropOnDie: 0
@@ -4543,9 +4552,11 @@ MonoBehaviour:
     imposterCount: 1
     randomEachTime: 0
     bombTimeSec: 45
+    allowRespawnOnEnemyTeam: 0
     lifeRegenSpeed: 20
     hostUserID: -1
     seed: 0
+    autoAim_Y: 0
     specialGun: 0
     enableShooting: 1
     searchEnemy: 1

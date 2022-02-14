@@ -14,6 +14,7 @@ using UnityEngine.Serialization;
 using Debug = UnityEngine.Debug;
 using kv = System.Collections.Generic.KeyValuePair<int, UnityEngine.Transform>;
 public enum Rarity{Common,Normal,Rare}
+
 [SelectionBase]
 public abstract class ItemBase : BotPickable, IOnLevelEditorGUI
 {
@@ -130,13 +131,19 @@ public abstract class ItemBase : BotPickable, IOnLevelEditorGUI
         //if (photonView) 
         //    photonView.viewID = 0;//will damage current prefab
 
-        var itemBase = !localOnly && PhotonNetwork.inRoom ? InstantiateSceneObject(path, pos, rot, sceneObject).GetComponent<ItemBase>() : Instantiate(this, pos, rot);
+        ItemBase itemBase = !localOnly && PhotonNetwork.inRoom ? InstantiateSceneObject(path, pos, rot, sceneObject).GetComponent<ItemBase>() : Instantiate(this, pos, rot);
         
         //if (PhotonNetwork.inRoom)
         //Debug2.LogWarning("Created in game " + name, itemBase.gameObject);
         itemBase.name = name ?? this.name;
         itemBase.levelEditorCreated = pernament;
+        OnInstanciate(this);
+        
         return itemBase;
+    }
+    public virtual void OnInstanciate(ItemBase prefab)
+    {
+        
     }
 
 

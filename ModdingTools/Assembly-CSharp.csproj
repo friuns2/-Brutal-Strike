@@ -133,6 +133,7 @@
      <Compile Include="Assets\bs-sdk\sdk\FlashGrenadeBullet.cs" />
      <Compile Include="Assets\bs-sdk\sdk\ForwardEvents.cs" />
      <Compile Include="Assets\bs-sdk\sdk\GameRes.cs" />
+     <Compile Include="Assets\bs-sdk\sdk\GameSettingsInGame.cs" />
      <Compile Include="Assets\bs-sdk\sdk\Glass.cs" />
      <Compile Include="Assets\bs-sdk\sdk\Grenade.cs" />
      <Compile Include="Assets\bs-sdk\sdk\GrenadeBullet.cs" />
@@ -182,6 +183,7 @@
      <Compile Include="Assets\bs-sdk\sdk\ResourceBundle.cs" />
      <Compile Include="Assets\bs-sdk\sdk\RespawnableBase.cs" />
      <Compile Include="Assets\bs-sdk\sdk\RigVec.cs" />
+     <Compile Include="Assets\bs-sdk\sdk\RoomSettings.cs" />
      <Compile Include="Assets\bs-sdk\sdk\SetupAudio.cs" />
      <Compile Include="Assets\bs-sdk\sdk\ShootRange.cs" />
      <Compile Include="Assets\bs-sdk\sdk\SimpleLOD\Extensions\FloatExtensions.cs" />

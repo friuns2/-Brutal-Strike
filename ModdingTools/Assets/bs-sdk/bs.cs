@@ -32,11 +32,11 @@ public class bs : Base,IOnInspectorGUI
 
     }
 }
-public class RoomSettings
-{
-    public bool enableBotSupport=true;
-    public bool enableKnocking;
-}
+// public class RoomSettings
+// {
+//     public bool enableBotSupport=true;
+//     public bool enableKnocking;
+// }
 public class PosRot
 {
     public List<PosRot> child = new List<PosRot>();
