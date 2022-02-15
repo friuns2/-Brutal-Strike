@@ -137,7 +137,7 @@ public abstract class ItemBase : BotPickable, IOnLevelEditorGUI
         //Debug2.LogWarning("Created in game " + name, itemBase.gameObject);
         itemBase.name = name ?? this.name;
         itemBase.levelEditorCreated = pernament;
-        OnInstanciate(this);
+        itemBase.OnInstanciate(this);
         
         return itemBase;
     }

@@ -6,9 +6,9 @@ using UnityEngine;
 public class bs : Base,IOnInspectorGUI
 {
     
-    public ObsCamera _ObsCamera; 
-    public Animator m_Animator;
-    public Animator animator { get { return m_Animator ?? (m_Animator = GetComponentInChildren<Animator>()); } set { m_Animator = value; } }
+    protected ObsCamera _ObsCamera; 
+    protected Animator m_Animator;
+    protected  Animator animator { get { return m_Animator ?? (m_Animator = GetComponentInChildren<Animator>()); } set { m_Animator = value; } }
     public static Vector3 ZeroY(Vector3 v, float a = 0)
     {
         v.y *= a;

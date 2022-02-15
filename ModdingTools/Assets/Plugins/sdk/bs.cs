@@ -38,6 +38,7 @@ public enum Anims
     shoot, shoot2, reload, endReload, draw, startShoot, endThrow, pressButton, fly,parachute,Executing,idle,Die
 }
 public interface IOnTriggerInit{}
+public interface IOnTriggerEnter{}
 public interface IOnPlayerNear
 {
     

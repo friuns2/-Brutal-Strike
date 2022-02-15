@@ -123,6 +123,7 @@
      <Compile Include="Assets\bs-sdk\sdk\Bullet.cs" />
      <Compile Include="Assets\bs-sdk\sdk\BulletBase.cs" />
      <Compile Include="Assets\bs-sdk\sdk\C4.cs" />
+     <Compile Include="Assets\bs-sdk\sdk\ConstrGrenade.cs" />
      <Compile Include="Assets\bs-sdk\sdk\Database5Mods.cs" />
      <Compile Include="Assets\bs-sdk\sdk\DisableIfSceneLoaded.cs" />
      <Compile Include="Assets\bs-sdk\sdk\DisableOnAndroid.cs" />
@@ -131,6 +132,10 @@
      <Compile Include="Assets\bs-sdk\sdk\EasyIK.cs" />
      <Compile Include="Assets\bs-sdk\sdk\EventMachineBehaviour.cs" />
      <Compile Include="Assets\bs-sdk\sdk\FlashGrenadeBullet.cs" />
+     <Compile Include="Assets\bs-sdk\sdk\FloorCell.cs" />
+     <Compile Include="Assets\bs-sdk\sdk\Fortnite\BuildScript.cs" />
+     <Compile Include="Assets\bs-sdk\sdk\Fortnite\Scripts\MeshElement.cs" />
+     <Compile Include="Assets\bs-sdk\sdk\Fortnite\Scripts\MeshTest.cs" />
      <Compile Include="Assets\bs-sdk\sdk\ForwardEvents.cs" />
      <Compile Include="Assets\bs-sdk\sdk\GameRes.cs" />
      <Compile Include="Assets\bs-sdk\sdk\GameSettingsInGame.cs" />
@@ -140,6 +145,7 @@
      <Compile Include="Assets\bs-sdk\sdk\GunBase.cs" />
      <Compile Include="Assets\bs-sdk\sdk\GunInfo.cs" />
      <Compile Include="Assets\bs-sdk\sdk\GunSkin.cs" />
+     <Compile Include="Assets\bs-sdk\sdk\Hammer.cs" />
      <Compile Include="Assets\bs-sdk\sdk\HandsSkin.cs" />
      <Compile Include="Assets\bs-sdk\sdk\Hostage.cs" />
      <Compile Include="Assets\bs-sdk\sdk\IKCCD.cs" />
@@ -234,6 +240,7 @@
      <None Include="Assets\ContentIncluded\KriptoFX\VolumetricBloodFX\Shaders\BFX_Blood.shader" />
      <None Include="Assets\6\Atlas Texture.shader" />
      <None Include="Assets\ContentIncluded\FXVille_BloodPack\Shaders\FXVille Blood 2018.shader" />
+     <None Include="Assets\bs-sdk\sdk\Fortnite\Shaders\SurfaceFortnite.shader" />
      <None Include="Assets\FX\MuzzleFlashes\Shaders\FPSParticleBlendDirLight.shader" />
      <None Include="Assets\7\Vignette\Shader\Vignette.shader" />
      <None Include="Assets\6\Atlas Texture No Shadow.shader" />

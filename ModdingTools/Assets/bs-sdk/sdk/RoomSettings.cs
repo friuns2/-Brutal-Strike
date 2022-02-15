@@ -14,7 +14,7 @@ interface IAutoUpdate
     void AutoUpdate();
 }
 [Serializable]
-public class RoomSettings : IAutoUpdate,IVarParseDraw
+public class RoomSettings : IAutoUpdate,IVarParseDraw, IVarParseValueChanged
 {
     internal bool inited;
 #if game 
@@ -72,6 +72,7 @@ public class RoomSettings : IAutoUpdate,IVarParseDraw
     public bool disableLootDropOnDie=false;
     public bool disableCrosshair;
     public bool autoShot;
+    public bool enableParachute;
     [FieldAtr(inherit = true, dontDraw = true, gameType = GameType.DeathMatch | GameType.TDM)]
     public float reviveTime = 6;
     public bool canBuyAlways;
@@ -197,7 +198,6 @@ public class RoomSettings : IAutoUpdate,IVarParseDraw
     public bool enableHearing = true;
     public bool coverSystem=true;
     public bool stopOnShoot=true;
-    public bool enableParachute;
 #if game
     public GameType gameType { get { return map.gameType; } set { map.gameType = value; } }
     public bool ranked { get { return gameType.IsRanked(); } }
@@ -223,5 +223,12 @@ public class RoomSettings : IAutoUpdate,IVarParseDraw
         if (maxPing == 999)
             maxPing = Mathf.Max((int) (bs.connectionManager.bestPeer?.ping / .666 ?? 900), 90);
     }
+    
+    public void OnValueChanged(string key, FieldCache fc)
+    {
+        Physics.IgnoreLayerCollision(Layer.player, Layer.ignoreRayCast, enablePlayerDrop);
+    }
+    
 #endif
+    
 }

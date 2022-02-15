@@ -103,7 +103,8 @@ public partial class BuildToolsSDK : EditorWindow
     [MenuItem("Brutal Strike/Build Mod PC only", false)]
     public static void BuildBundlePC()
     {
-        BuildLevel(BuildTarget.StandaloneWindows, bundlesDir);
+        
+        BuildLevel(EditorUserBuildSettings.activeBuildTarget, bundlesDir);
         OpenExplorer();
     }
 
