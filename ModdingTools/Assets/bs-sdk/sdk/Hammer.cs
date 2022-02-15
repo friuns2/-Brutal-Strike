@@ -14,6 +14,7 @@ public class Hammer : GunBase
     private Vector4?[] validPoses;
     private List<Vector4> poses;
     public bool singlePose;
+    public AudioClip2 attackSound;
     #if game
     public void FixedUpdate2()
     {
@@ -66,7 +67,6 @@ public class Hammer : GunBase
         }
 
     }
-    public AudioClip2 attackSound;
     private List<Vector4> GetPoses(Vector3 position)
     {
         List<Vector4> poses = TempList<Vector4>.GetTempList();
