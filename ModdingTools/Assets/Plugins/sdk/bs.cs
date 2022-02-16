@@ -118,7 +118,6 @@ public class ReorderableList:Attribute
 public interface IOnLoadAsset{}
 
 public interface  IOnLevelEditorGUI{}
-public interface IDontDisable{}
 
 namespace ExitGames.Client.Photon
 {
