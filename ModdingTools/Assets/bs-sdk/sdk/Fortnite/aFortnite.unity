@@ -2950,7 +2950,7 @@ MonoBehaviour:
   timeToRespawn: 0
   transformCache: {fileID: 0}
   hideWhenFarAway: 0
-  lifeDef: 200
+  lifeDef: 500
   team: 0
   shader: {fileID: 4800000, guid: 4820c79fcbc80be4cbd739a4463f782f, type: 3}
   placementValue: 100
@@ -3737,7 +3737,7 @@ MonoBehaviour:
   timeToRespawn: 0
   transformCache: {fileID: 0}
   hideWhenFarAway: 0
-  lifeDef: 200
+  lifeDef: 500
   team: 0
   shader: {fileID: 4800000, guid: 4820c79fcbc80be4cbd739a4463f782f, type: 3}
   placementValue: 100
@@ -4325,7 +4325,7 @@ MonoBehaviour:
   randomPickableNested: 0
   levelEditorCreated: 0
   bspGenerated: 0
-  path: 
+  path: thorHammerw
   assetLoaded: 0
   probabilityFactor: 1
   dragScale: 0
@@ -4369,6 +4369,20 @@ MonoBehaviour:
   m_dropOwner: {fileID: 0}
   probability: 0
   arrayId: -1
+--- !u!114 &1331213049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331213041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ac3762916d446c4d94ac2c586e45f6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tr: {fileID: 0}
+  handler: {fileID: 1331213047}
 --- !u!1001 &1364541473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7392,7 +7406,7 @@ MonoBehaviour:
   timeToRespawn: 0
   transformCache: {fileID: 0}
   hideWhenFarAway: 0
-  lifeDef: 200
+  lifeDef: 500
   team: 0
   shader: {fileID: 4800000, guid: 4820c79fcbc80be4cbd739a4463f782f, type: 3}
   placementValue: 100
