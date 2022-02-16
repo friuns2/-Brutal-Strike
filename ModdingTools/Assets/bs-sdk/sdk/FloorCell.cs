@@ -95,7 +95,7 @@ public class FloorCell : BuildScript, IOnTriggerEnter
     {
         if (life < -1)
         {
-            GetComponentInChildren<BuildScript>(true).Break();
+            // GetComponentInChildren<BuildScript>(true).Break();
             var pl = ToObject<Player>(pv);
             if(pl!=null)
                 foreach(var a in gunsDict)

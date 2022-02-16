@@ -39,8 +39,9 @@ public class BuildScript : Destructable
     // }
     public void Break()
     {
-        foreach(var a in meshTests)
-            a.Break();
+        if (qualityLevelAndroid > QualityLevel.Low)
+            foreach (var a in meshTests)
+                a.Break();
             // foreach (var b in Materials)
             // foreach (var c in b)
                 // c.shader = shader;
